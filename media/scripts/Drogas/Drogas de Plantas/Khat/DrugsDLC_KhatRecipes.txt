@@ -1,0 +1,20 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Add Khat to Tea
+{
+	DrugsDLC.Khat=1,
+	HotDrinkTea=1,
+	Result:DrugsDLC.KhatTea=1,
+	Time: 10.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+}

@@ -1,0 +1,136 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Phenobarbital
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Phenobarbital,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Phenobarbital
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Phenobarbital,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Phenobarbital
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Phenobarbital,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Phenobarbital
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Phenobarbital,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Phenobarbital_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5PhenobarbitalPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Phenobarbital_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10PhenobarbitalPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Phenobarbital_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20PhenobarbitalPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Phenobarbital_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000PhenobarbitalPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100PhenobarbitalPack,
+ 		}
+ 	}
+
+}

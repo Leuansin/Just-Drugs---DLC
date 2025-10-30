@@ -1,0 +1,62 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsPercocet
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.PercoBottle],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Percocet,
+		}
+	}
+
+	craftRecipe MakePercocetCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.MorphineCompound] mode:keep,
+			item 1 [DrugsDLC.Acetaminophen],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 12 DrugsDLC.PercocetCompound,
+		}
+	}
+
+	craftRecipe MakePercocet
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 12 [DrugsDLC.PercocetCompound],
+			item 1 [DrugsDLC.Acetaminophen],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.PercoBottle,
+		}
+	}
+}

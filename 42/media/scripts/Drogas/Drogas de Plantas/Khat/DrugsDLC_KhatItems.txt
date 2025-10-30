@@ -1,0 +1,54 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item Khat
+    {
+        DisplayName                 = Khat,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Khat,
+        Packaged                    = FALSE,
+		FatigueChange 				= -90,
+		StressChange				= -80,
+		PainReduction 				= 5,
+		UnhappyChange				= -30,  
+		EnduranceChange 			= -10,
+		BoredomChange 				= -250,
+		UseDelta 					= 0.1,
+		CustomEatSound              = swallow,
+        WorldStaticModel 			= Plantita_Ground,
+		Tooltip 					= Tooltip_Khat,
+    }
+
+item KhatTea
+	{
+		DisplayName = Hot Khat Teacup,
+		DisplayCategory = Drugs,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Teacup,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Teacup,
+		MinutesToCook = 10,
+		MinutesToBurn = 50,
+		ThirstChange = -20,
+		FatigueChange = -120,
+		StressChange = -130,
+		PainReduction = 20,
+		EnduranceChange = -10,
+		BoredomChange = -250,
+		UnhappyChange = -120,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromMug,
+		StaticModel = Mug,
+		Tags = AlcoholicBeverage;LowAlcohol;HerbalTea;CoffeeMaker,
+		WorldStaticModel = Teacup_Ground,
+	}
+}

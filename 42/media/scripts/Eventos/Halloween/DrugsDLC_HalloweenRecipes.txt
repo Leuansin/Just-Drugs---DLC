@@ -1,0 +1,32 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe StealDrugs
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.HalloweenPumpkinDrug],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Ibuprofen,
+			item 2 DrugsDLC.TramadolBox,
+			item 4 DrugsDLC.MorphineBottle,
+			item 3 DrugsDLC.Cocaine,
+			item 5 DrugsDLC.Acid,
+			item 3 DrugsDLC.DMT,
+			item 1 DrugsDLC.DrugPipe,
+			item 1 DrugsDLC.NarcanSOS,
+			item 1 DrugsDLC.Bismuth,
+		}
+	}
+}

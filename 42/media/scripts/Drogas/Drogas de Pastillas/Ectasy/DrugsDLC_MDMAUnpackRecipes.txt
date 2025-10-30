@@ -1,0 +1,140 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5MDMA
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5MDMAPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.MDMA,
+ 		}
+ 	}
+
+	craftRecipe Unpack10MDMA
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10MDMAPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.MDMA,
+ 		}
+ 	}
+
+	craftRecipe Unpack20MDMA
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20MDMAPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.MDMA,
+ 		}
+ 	}
+
+	craftRecipe Unpack100MDMA
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100MDMAPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.MDMA,
+ 		}
+ 	}
+
+	craftRecipe Unpack10MDMA_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10MDMAPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5MDMAPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20MDMA_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20MDMAPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10MDMAPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100MDMA_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100MDMAPack],
+			item 5 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20MDMAPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000MDMA_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000MDMAPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100MDMAPack,
+ 		}
+ 	}
+
+}

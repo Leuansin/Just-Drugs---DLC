@@ -1,0 +1,31 @@
+Sandbox_PL = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | By Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Wska?nik Spawn Narkotyków Halucynogennych",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Wska?nik Spawn Narkotyków Inhalacyjnych",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Wska?nik Spawn Narkotyków w Proszku",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Wska?nik Spawn Narkotyków Zio?owych",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Wska?nik Spawn Narkotyków Farmaceutycznych",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Wska?nik Spawn Narkotyków Detoksykuj?cych",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Wska?nik Spawn Narkotyków w ?upach Zombich",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Wska?nik Spawn Sk?adników w Butelkach",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = 'Wska?nik Spawn Ksi??ek "Chemia 101"',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "Wska?nik Spawn Pustych Toreb Narkotyków",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Zwi?kszenie Nudy Co Godzin?",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Dni do Przezwyci??enia Cechy Uzale?nienia od Narkotyków",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Grzyby, Kwasy, MDMA, Ekstaza, itd...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Dezodoranty, Jenkem i Neopren",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Kokaina, Heroina, Fentanyl, Metamfetamina, itd...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Oddech Diab?a, itd...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofen, Vicodina, Tramadol, Xanax, itd...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamid, Bismut. Narkotyki pomagaj?ce w walce z przedawkowaniem",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Zmienia Spawn przedmiotów w ciele zombi.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Butelki Amoniaku, Fenolu, Etanolu, Potasu, itd...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Ksi??ki ucz?ce przepisy na wytwarzanie specyficznych narkotyków.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Puste Torebki Narkotyków. (Przydatne do produkcji)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Tylko cecha Uzale?nienia od Narkotyków zwi?ksza nud? co godzin?, wi?c to pomo?e j? skonfigurowa?.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Pami?taj, ?e nie mo?esz mie? ?adnych narkotyków w swoim ekwipunku, aby to si? liczy?o.",
+}

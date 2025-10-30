@@ -1,0 +1,31 @@
+Sandbox_AR = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | By Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "% de Spawn de Drogas Alucinogenas",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "% de Spawn de Drogas Inhalables",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "% de Spawn de Drogas en Polvo",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "% de Spawn de Drogas Herbales",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "% de Spawn de Drogas Farmaceuticas",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "% de Spawn de Drogas Desintoxicantes",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "% de Spawn de Drogas en Zombis",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "% de Spawn de Botellas de Compuestos",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = '% de Spawn de Libros "Quimica 101"',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "% de Spawn de Bolsas Vacias de Drogas",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Incremento de Aburrimiento Cada Hora",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Dias para Superar el Rasgo de Adiccion a las Drogas",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Hongos, acido, MDMA, extasis, etc...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Desodorantes, Jenkem y Neopreno",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Cocaina, Heroina, Fentanilo, Metanfetamina, etc...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Aliento del Diablo, etc...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofeno, Vicodina, Tramadol, Xanax, etc...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamida, Bismuto. Drogas que ayudan a combatir sobredosis",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Modifica el Spawn de objetos en el cadaver de un zombi.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Frascos de Amoniaco, Fenol, Etanol, Potasio, etc...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Libros que enseñan las recetas para fabricar una droga especifica.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Bolsas Vacias de Drogas. (utiles para la fabricacion)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Solo el rasgo de Adiccion a Drogas aumenta el aburrimiento cada hora, por lo que esto ayuda a configurarlo.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Recuerda que no debes tener ninguna droga en tu inventario para que cuente.",
+}

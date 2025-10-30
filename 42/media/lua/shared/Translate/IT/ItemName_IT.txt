@@ -1,0 +1,295 @@
+ItemName_IT = {
+    ItemName_DrugsDLC.Acid = "Compresse di LSD"
+    ItemName_DrugsDLC.AcidLibro = "Chimica 101: Come Fare LSD"
+
+    ItemName_DrugsDLC.Shrooms = "Funghi Allucinogeni"
+    ItemName_DrugsDLC.HongosLibro = "Chimica 101: Psilocibina"
+    ItemName_DrugsDLC.BagShrooms = "Busta con Funghi Allucinogeni"
+
+    ItemName_DrugsDLC.AcetaminophenBottle = "Scatola di Acetaminofene"
+    ItemName_DrugsDLC.Acetaminophen = "Acetaminofene"
+    ItemName_DrugsDLC.ParacetamolBox = "Scatola di Paracetamolo"
+    ItemName_DrugsDLC.Paracetamol = "Paracetamolo"
+    ItemName_DrugsDLC.PanadolBox = "Scatola di Panadol"
+    ItemName_DrugsDLC.Panadol = "Panadol"
+    ItemName_DrugsDLC.TylenolBox = "Scatola di Tylenol"
+    ItemName_DrugsDLC.Tylenol = "Tylenol"
+
+    ItemName_DrugsDLC.AddyLibro = "Chimica 101: Adderall"
+    ItemName_DrugsDLC.AdderallBottle = "Bottiglia di Adderall"
+    ItemName_DrugsDLC.Adderall = "Adderall"
+
+    ItemName_DrugsDLC.ClonaLibro = "Chimica 101: Clonazepam"
+    ItemName_DrugsDLC.ClonazepamBox = "Scatola di Clonazepam"
+    ItemName_DrugsDLC.Clonazepam = "Clonazepam"
+
+    ItemName_DrugsDLC.CodeineLibro = "Chimica 101: Codeina"
+    ItemName_DrugsDLC.CodeineBottle = "Bottiglia di Codeina"
+    ItemName_DrugsDLC.Codeine = "Codeina"
+
+    ItemName_DrugsDLC.MDMALibro = "Chimica 101: Ecstasy o MDMA"
+    ItemName_DrugsDLC.MDMA = "Pillola di MDMA"
+
+    ItemName_DrugsDLC.IbuprofenBox = "Scatola di Ibuprofene"
+    ItemName_DrugsDLC.Ibuprofen = "Ibuprofene"
+
+    ItemName_DrugsDLC.LeanLibro = "Chimica 101: Lean"
+    ItemName_DrugsDLC.Lean = "Bicchiere di Lean"
+
+    ItemName_DrugsDLC.MorphineLibro = "Chimica 101: Morfina"
+    ItemName_DrugsDLC.MorphineBottle = "Bottiglia di Morfina"
+
+    ItemName_DrugsDLC.OxyLibro = "Chimica 101: Oxycodone"
+    ItemName_DrugsDLC.OxycodoneBottle = "Bottiglia di Oxycodone"
+    ItemName_DrugsDLC.Oxycodone = "Oxycodone"
+
+    ItemName_DrugsDLC.PercLibro = "Chimica 101: Percocet"
+    ItemName_DrugsDLC.PercoBottle = "Bottiglia di Percocet"
+    ItemName_DrugsDLC.Percocet = "Percocet"
+
+    ItemName_DrugsDLC.PhenoBLibro = "Chimica 101: Fenobarbital"
+    ItemName_DrugsDLC.PhenobarbitalBox = "Scatola di Fenobarbital"
+    ItemName_DrugsDLC.Phenobarbital = "Fenobarbital"
+
+    ItemName_DrugsDLC.TentramitrozonBox = "Scatola di Tentramitrozón"
+    ItemName_DrugsDLC.Tentramitrozon = "Tentramitrozón"
+
+    ItemName_DrugsDLC.TramadolLibro = "Chimica 101: Tramadol"
+    ItemName_DrugsDLC.TramadolBox = "Scatola di Tramadol"
+    ItemName_DrugsDLC.Tramadol = "Tramadol"
+
+    ItemName_DrugsDLC.VicodinLibro = "Chimica 101: Vicodin"
+    ItemName_DrugsDLC.VicodinBottle = "Bottiglia di Vicodin"
+    ItemName_DrugsDLC.Vicodin = "Vicodin"
+
+    ItemName_DrugsDLC.XanaxLibro = "Chimica 101: Xanax"
+    ItemName_DrugsDLC.XanaxBottle = "Bottiglia di Xanax"
+    ItemName_DrugsDLC.Xanax = "Xanax"
+
+    ItemName_DrugsDLC.Escopolamina = "Burundanga"
+    ItemName_DrugsDLC.EscopolaminaInfusion = "Infusione di Burundanga"
+    ItemName_DrugsDLC.EscopolaminaTea = "Tè di Burundanga"
+
+    ItemName_DrugsDLC.Ayahuasca = "Ayahuasca"
+    ItemName_DrugsDLC.AyahuascaInfusion = "Infusione di Ayahuasca"
+    ItemName_DrugsDLC.AyahuascaTea = "Tè di Ayahuasca"
+
+    ItemName_DrugsDLC.Khat = "Khat"
+    ItemName_DrugsDLC.KhatTea = "Tè di Khat"
+
+    ItemName_DrugsDLC.Peyote = "Peyote"
+    ItemName_DrugsDLC.PeyoteTea = "Tè di Peyote"
+
+    ItemName_DrugsDLC.MethLibro = "Chimica 101: Metanfetamine"
+    ItemName_DrugsDLC.Meth = "Busta con Metanfetamine"
+
+    ItemName_DrugsDLC.CocaLibro = "Chimica 101: Cocaina"
+    ItemName_DrugsDLC.Cocaine = "Busta con Cocaina"
+
+    ItemName_DrugsDLC.HeroinLibro = "Chimica 101: Eroina"
+    ItemName_DrugsDLC.Heroin = "Busta con Eroina"
+
+    ItemName_DrugsDLC.CrackLibro = "Chimica 101: Crack"
+    ItemName_DrugsDLC.Crack = "Busta con Crack"
+
+    ItemName_DrugsDLC.AmphLibro = "Chimica 101: Anfetamine"
+    ItemName_DrugsDLC.Amphetamines = "Busta con Anfetamine"
+
+    ItemName_DrugsDLC.FentLibro = "Chimica 101: Fentanil"
+    ItemName_DrugsDLC.Fentanyl = "Busta con Fentanil"
+
+    ItemName_DrugsDLC.DMTLibro = "Chimica 101: DMT"
+    ItemName_DrugsDLC.DMT = "Compressa di DMT"
+
+    ItemName_DrugsDLC.RexonaDesodorante = "Deodorante"
+    ItemName_DrugsDLC.OldSpiceDesodorante = "Deodorante"
+    ItemName_DrugsDLC.AxeDesodorante = "Deodorante"
+    ItemName_DrugsDLC.DeodorantTowel = "Asciugamano con Deodorante"
+    ItemName_DrugsDLC.Potocaca = "Feci di Escrementi"
+    ItemName_DrugsDLC.BowlofJenkem = "Ciotola con Jenkem"
+    ItemName_DrugsDLC.Neoprene = "Barattolo di Neoprene"
+    ItemName_DrugsDLC.NeopreneBag = "Busta con Neoprene"
+
+    ItemName_DrugsDLC.HeroinSpoonDrug = "Cucchiaio con Droga"
+    ItemName_DrugsDLC.MethSpoonDrug = "Cucchiaio con Droga"
+    ItemName_DrugsDLC.CrackSpoonDrug = "Cucchiaio con Droga"
+    ItemName_DrugsDLC.FentanylSpoonDrug = "Cucchiaio con Droga"
+    ItemName_DrugsDLC.AmphSpoonDrug = "Cucchiaio con Droga"
+    ItemName_DrugsDLC.CocaineSpoonDrug = "Cucchiaio con Droga"
+
+    ItemName_DrugsDLC.MorphineNeedle = "Ago con Morfina"
+    ItemName_DrugsDLC.HeroinNeedle = "Ago con Eroina"
+    ItemName_DrugsDLC.CocaineNeedle = "Ago con Cocaina"
+    ItemName_DrugsDLC.MethNeedle = "Ago con Metanfetamine"
+    ItemName_DrugsDLC.CrackNeedle = "Ago con Crack"
+    ItemName_DrugsDLC.FentanylNeedle = "Ago con Fentanil"
+    ItemName_DrugsDLC.AmphNeedle = "Ago con Anfetamine"
+
+    ItemName_DrugsDLC.RawShrooms = "Funghi Psilocibinici Crudi"
+    ItemName_DrugsDLC.RefinedCoca = "Cocaina Non Raffinata"
+    ItemName_DrugsDLC.RefinedHeroin = "Eroina Non Raffinata"
+    ItemName_DrugsDLC.AmphSales = "Sali di Anfetamine"
+    ItemName_DrugsDLC.EphedrineCompound = "Estratto di Efedrina"
+    ItemName_DrugsDLC.MethCompound = "Estratto di Metanfetamina"
+    ItemName_DrugsDLC.ErgotaCompound = "Estratto di Ergotamina"
+    ItemName_DrugsDLC.BenzoCompound = "Benzodiazepina Liquida"
+    ItemName_DrugsDLC.XanaxCompound = "Estratto di Xanax"
+    ItemName_DrugsDLC.CocaCompound = "Estratto di Cocaina"
+    ItemName_DrugsDLC.AcidCompound = "Estratto di Acido LSD"
+    ItemName_DrugsDLC.PsilocybinCompound = "Psilocibina Liquida"
+    ItemName_DrugsDLC.FentanylCompound = "Estratto di Fentanil"
+    ItemName_DrugsDLC.CrackCompound = "Estratto di Crack"
+    ItemName_DrugsDLC.MorphineCompound = "Estratto di Morfina"
+    ItemName_DrugsDLC.PhenyCompound = "Estratto di Feniletilamina"
+    ItemName_DrugsDLC.OxycodoneCompound = "Estratto di Oxycodone"
+    ItemName_DrugsDLC.PercocetCompound = "Estratto di Percocet"
+    ItemName_DrugsDLC.TramadolCompound = "Estratto di Tramadol"
+    ItemName_DrugsDLC.CodeineCompound = "Estratto di Codeina"
+    ItemName_DrugsDLC.NDimethyltryptamine = "Estratto di N-Dimetiltriptamina"
+    ItemName_DrugsDLC.ClonazepamCompound = "Estratto di Clonazepam"
+    ItemName_DrugsDLC.PhenobarbitalCompound = "Estratto di Fenobarbital"
+    ItemName_DrugsDLC.VicodinCompound = "Estratto di Vicodin"
+    ItemName_DrugsDLC.EctasyCompound = "Estratto di Ecstasy"
+
+    ItemName_DrugsDLC.Acid = "Compresse di LSD"
+
+    ItemName_DrugsDLC.5DMTPack = "Pacchetto di DMT (5)"
+    ItemName_DrugsDLC.10DMTPack = "Pacchetto di DMT (10)"
+    ItemName_DrugsDLC.20DMTPack = "Pacchetti di DMT (20)"
+    ItemName_DrugsDLC.100DMTPack = "Pacchetti di DMT (100)"
+    ItemName_DrugsDLC.1000DMTPack = "Pacchetto di DMT (1KG)"
+    ItemName_DrugsDLC.5VicodinPack = "Pacchetto di Vicodin (5)"
+    ItemName_DrugsDLC.10VicodinPack = "Pacchetto di Vicodin (10)"
+    ItemName_DrugsDLC.20VicodinPack = "Pacchetti di Vicodin (20)"
+    ItemName_DrugsDLC.100VicodinPack = "Pacchetti di Vicodin (100)"
+    ItemName_DrugsDLC.1000VicodinPack = "Pacchetto di Vicodin (1KG)"
+    ItemName_DrugsDLC.5TramadolPack = "Pacchetto di Tramadol (5)"
+    ItemName_DrugsDLC.10TramadolPack = "Pacchetto di Tramadol (10)"
+    ItemName_DrugsDLC.20TramadolPack = "Pacchetti di Tramadol (20)"
+    ItemName_DrugsDLC.100TramadolPack = "Pacchetti di Tramadol (100)"
+    ItemName_DrugsDLC.1000TramadolPack = "Pacchetto di Tramadol (1KG)"
+    ItemName_DrugsDLC.5TentramitrozonPack = "Pacchetto di Tentramitrozón (5)"
+    ItemName_DrugsDLC.10TentramitrozonPack = "Pacchetto di Tentramitrozón (10)"
+    ItemName_DrugsDLC.20TentramitrozonPack = "Pacchetti di Tentramitrozón (20)"
+    ItemName_DrugsDLC.100TentramitrozonPack = "Pacchetti di Tentramitrozón (100)"
+    ItemName_DrugsDLC.1000TentramitrozonPack = "Pacchetto di Tentramitrozón (1KG)"
+    ItemName_DrugsDLC.5PhenobarbitalPack = "Pacchetto di Fenobarbital (5)"
+    ItemName_DrugsDLC.10PhenobarbitalPack = "Pacchetto di Fenobarbital (10)"
+    ItemName_DrugsDLC.20PhenobarbitalPack = "Pacchetti di Fenobarbital (20)"
+    ItemName_DrugsDLC.100PhenobarbitalPack = "Pacchetti di Fenobarbital (100)"
+    ItemName_DrugsDLC.1000PhenobarbitalPack = "Pacchetto di Fenobarbital (1KG)"
+    ItemName_DrugsDLC.5PercocetPack = "Pacchetto di Percocet (5)"
+    ItemName_DrugsDLC.10PercocetPack = "Pacchetto di Percocet (10)"
+    ItemName_DrugsDLC.20PercocetPack = "Pacchetti di Percocet (20)"
+    ItemName_DrugsDLC.100PercocetPack = "Pacchetti di Percocet (100)"
+    ItemName_DrugsDLC.1000PercocetPack = "Pacchetto di Percocet (1KG)"
+    ItemName_DrugsDLC.5OxycodonePack = "Pacchetto di Oxycodone (5)"
+    ItemName_DrugsDLC.10OxycodonePack = "Pacchetto di Oxycodone (10)"
+    ItemName_DrugsDLC.20OxycodonePack = "Pacchetti di Oxycodone (20)"
+    ItemName_DrugsDLC.100OxycodonePack = "Pacchetti di Oxycodone (100)"
+    ItemName_DrugsDLC.1000OxycodonePack = "Pacchetto di Oxycodone (1KG)"
+    ItemName_DrugsDLC.5MorphinePack = "Pacchetto di Morfina (5)"
+    ItemName_DrugsDLC.10MorphinePack = "Pacchetto di Morfina (10)"
+    ItemName_DrugsDLC.20MorphinePack = "Pacchetti di Morfina (20)"
+    ItemName_DrugsDLC.100MorphinePack = "Pacchetti di Morfina (100)"
+    ItemName_DrugsDLC.1000MorphinePack = "Pacchetto di Morfina (1KG)"
+    ItemName_DrugsDLC.5LeanPack = "Pacchetto di Lean (5)"
+    ItemName_DrugsDLC.10LeanPack = "Pacchetto di Lean (10)"
+    ItemName_DrugsDLC.20LeanPack = "Pacchetti di Lean (20)"
+    ItemName_DrugsDLC.100LeanPack = "Pacchetti di Lean (100)"
+    ItemName_DrugsDLC.1000LeanPack = "Pacchetto di Lean (1KG)"
+    ItemName_DrugsDLC.5IbuprofenPack = "Pacchetto di Ibuprofene (5)"
+    ItemName_DrugsDLC.10IbuprofenPack = "Pacchetto di Ibuprofene (10)"
+    ItemName_DrugsDLC.20IbuprofenPack = "Pacchetti di Ibuprofene (20)"
+    ItemName_DrugsDLC.100IbuprofenPack = "Pacchetti di Ibuprofene (100)"
+    ItemName_DrugsDLC.1000IbuprofenPack = "Pacchetto di Ibuprofene (1KG)"
+    ItemName_DrugsDLC.5MDMAPack = "Pacchetto di MDMA (5)"
+    ItemName_DrugsDLC.10MDMAPack = "Pacchetto di MDMA (10)"
+    ItemName_DrugsDLC.20MDMAPack = "Pacchetti di MDMA (20)"
+    ItemName_DrugsDLC.100MDMAPack = "Pacchetti di MDMA (100)"
+    ItemName_DrugsDLC.1000MDMAPack = "Pacchetto di MDMA (1KG)"
+    ItemName_DrugsDLC.5CodeinePack = "Pacchetto di Codeina (5)"
+    ItemName_DrugsDLC.10CodeinePack = "Pacchetto di Codeina (10)"
+    ItemName_DrugsDLC.20CodeinePack = "Pacchetti di Codeina (20)"
+    ItemName_DrugsDLC.100CodeinePack = "Pacchetti di Codeina (100)"
+    ItemName_DrugsDLC.1000CodeinePack = "Pacchetto di Codeina (1KG)",
+    ItemName_DrugsDLC.5ClonazepamPack = "Pacchetto di Clonazepam (5)",
+    ItemName_DrugsDLC.10ClonazepamPack = "Pacchetto di Clonazepam (10)",
+    ItemName_DrugsDLC.20ClonazepamPack = "Pacchetti di Clonazepam (20)",
+    ItemName_DrugsDLC.100ClonazepamPack = "Pacchetti di Clonazepam (100)",
+    ItemName_DrugsDLC.1000ClonazepamPack = "Pacchetto di Clonazepam (1KG)",
+    ItemName_DrugsDLC.5AdderallPack = "Pacchetto di Adderall (5)",
+    ItemName_DrugsDLC.10AdderallPack = "Pacchetto di Adderall (10)",
+    ItemName_DrugsDLC.20AdderallPack = "Pacchetti di Adderall (20)",
+    ItemName_DrugsDLC.100AdderallPack = "Pacchetti di Adderall (100)",
+    ItemName_DrugsDLC.1000AdderallPack = "Pacchetto di Adderall (1KG)",
+    ItemName_DrugsDLC.5AcetaminophenPack = "Pacchetto di Acetaminofene (5)",
+    ItemName_DrugsDLC.10AcetaminophenPack = "Pacchetto di Acetaminofene (10)",
+    ItemName_DrugsDLC.20AcetaminophenPack = "Pacchetti di Acetaminofene (20)",
+    ItemName_DrugsDLC.100AcetaminophenPack = "Pacchetti di Acetaminofene (100)",
+    ItemName_DrugsDLC.1000AcetaminophenPack = "Pacchetto di Acetaminofene (1KG)",
+    ItemName_DrugsDLC.5AcidPack = "Pacchetto di LSD (5)",
+    ItemName_DrugsDLC.10AcidPack = "Pacchetto di LSD (10)",
+    ItemName_DrugsDLC.20AcidPack = "Pacchetti di LSD (20)",
+    ItemName_DrugsDLC.100AcidPack = "Pacchetti di LSD (100)",
+    ItemName_DrugsDLC.1000AcidPack = "Pacchetto di LSD (1KG)",
+    ItemName_DrugsDLC.5AmphetaminesPack = "Pacchetto di Anfetamine (5)",
+    ItemName_DrugsDLC.10AmphetaminesPack = "Pacchetto di Anfetamine (10)",
+    ItemName_DrugsDLC.20AmphetaminesPack = "Pacchetti di Anfetamine (20)",
+    ItemName_DrugsDLC.100AmphetaminesPack = "Pacchetti di Anfetamine (100)",
+    ItemName_DrugsDLC.1000AmphetaminesPack = "Pacchetto di Anfetamine (1KG)",
+    ItemName_DrugsDLC.5CocainePack = "Pacchetto di Cocaina (5)",
+    ItemName_DrugsDLC.10CocainePack = "Pacchetto di Cocaina (10)",
+    ItemName_DrugsDLC.20CocainePack = "Pacchetti di Cocaina (20)",
+    ItemName_DrugsDLC.100CocainePack = "Pacchetti di Cocaina (100)",
+    ItemName_DrugsDLC.1000CocainePack = "Pacchetto di Cocaina (1KG)",
+    ItemName_DrugsDLC.5CrackPack = "Pacchetto di Crack (5)",
+    ItemName_DrugsDLC.10CrackPack = "Pacchetto di Crack (10)",
+    ItemName_DrugsDLC.20CrackPack = "Pacchetti di Crack (20)",
+    ItemName_DrugsDLC.100CrackPack = "Pacchetti di Crack (100)",
+    ItemName_DrugsDLC.1000CrackPack = "Pacchetto di Crack (1KG)",
+    ItemName_DrugsDLC.5FentanylPack = "Pacchetto di Fentanyl (5)",
+    ItemName_DrugsDLC.10FentanylPack = "Pacchetto di Fentanyl (10)",
+    ItemName_DrugsDLC.20FentanylPack = "Pacchetti di Fentanyl (20)",
+    ItemName_DrugsDLC.100FentanylPack = "Pacchetti di Fentanyl (100)",
+    ItemName_DrugsDLC.1000FentanylPack = "Pacchetto di Fentanyl (1KG)",
+    ItemName_DrugsDLC.5HeroinPack = "Pacchetto di Eroina (5)",
+    ItemName_DrugsDLC.10HeroinPack = "Pacchetto di Eroina (10)",
+    ItemName_DrugsDLC.20HeroinPack = "Pacchetti di Eroina (20)",
+    ItemName_DrugsDLC.100HeroinPack = "Pacchetti di Eroina (100)",
+    ItemName_DrugsDLC.1000HeroinPack = "Pacchetto di Eroina (1KG)",
+    ItemName_DrugsDLC.5MethPack = "Pacchetto di Metanfetamina (5)",
+    ItemName_DrugsDLC.10MethPack = "Pacchetto di Metanfetamina (10)",
+    ItemName_DrugsDLC.20MethPack = "Pacchetti di Metanfetamina (20)",
+    ItemName_DrugsDLC.100MethPack = "Pacchetti di Metanfetamina (100)",
+    ItemName_DrugsDLC.1000MethPack = "Pacchetto di Metanfetamina (1KG)",
+    ItemName_DrugsDLC.5ShroomsPack = "Pacchetto di Funghi (5)",
+    ItemName_DrugsDLC.10ShroomsPack = "Pacchetto di Funghi (10)",
+    ItemName_DrugsDLC.20ShroomsPack = "Pacchetti di Funghi (20)",
+    ItemName_DrugsDLC.100ShroomsPack = "Pacchetti di Funghi (100)",
+    ItemName_DrugsDLC.1000ShroomsPack = "Pacchetto di Funghi (1KG)",
+    ItemName_DrugsDLC.5XanaxPack = "Pacchetto di Xanax (5)",
+    ItemName_DrugsDLC.10XanaxPack = "Pacchetto di Xanax (10)",
+    ItemName_DrugsDLC.20XanaxPack = "Pacchetti di Xanax (20)",
+    ItemName_DrugsDLC.100XanaxPack = "Pacchetti di Xanax (100)",
+    ItemName_DrugsDLC.1000XanaxPack = "Pacchetto di Xanax (1KG)",
+
+    ItemName_DrugsDLC.BolsaDeDroga = "Borsa di Droga",
+    ItemName_DrugsDLC.DrugPipe = "Pipa per Droghe",
+    ItemName_DrugsDLC.MethPipe = "Pipa con Metanfetamina",
+    ItemName_DrugsDLC.CrackPipe = "Pipa con Crack",
+    ItemName_DrugsDLC.DMTPipe = "Pipa con DMT",
+    ItemName_DrugsDLC.Needle = "Ago",
+
+    ItemName_DrugsDLC.EphedrineBottle = "Bottiglia di Efedrina",
+    ItemName_DrugsDLC.IodoricAcidBottle = "Bottiglia di Acido Iodico",
+    ItemName_DrugsDLC.AmmoniaBottle = "Bottiglia di Ammoniaca",
+    ItemName_DrugsDLC.PhenyBottle = "Bottiglia di Feniletilamina",
+    ItemName_DrugsDLC.PotassiumBottle = "Bottiglia di Idrossido di Potassio",
+    ItemName_DrugsDLC.EthanolBottle = "Bottiglia di Etanolo",
+
+    ItemName_DrugsDLC.Bismuth = "Subsalicilato di Bismuto",
+    ItemName_DrugsDLC.Loperamide = "Loperamide",
+    ItemName_DrugsDLC.NarcanSOS = "NarCan - S.O.S Overdose",
+
+}

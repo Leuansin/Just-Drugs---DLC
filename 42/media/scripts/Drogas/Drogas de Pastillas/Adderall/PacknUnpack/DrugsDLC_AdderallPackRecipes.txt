@@ -1,0 +1,242 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+	craftRecipe Pack5Adderall
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.Adderall],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.5AdderallPack,
+		}
+	}
+
+	craftRecipe Pack10Adderall_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.5AdderallPack],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10AdderallPack,
+		}
+	}
+
+	craftRecipe Pack10Adderall_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.Adderall],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10AdderallPack,
+		}
+	}
+
+	craftRecipe Pack20Adderall_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 20 [DrugsDLC.Adderall],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20AdderallPack,
+		}
+	}
+	
+	craftRecipe Pack20Adderall_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.10AdderallPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20AdderallPack,
+		}
+	}
+
+	craftRecipe Pack20Adderall_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 4 [DrugsDLC.5AdderallPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20AdderallPack,
+		}
+	}
+
+	craftRecipe Pack100Adderall_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 100,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.Adderall],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100AdderallPack,
+		}
+	}
+
+	craftRecipe Pack100Adderall_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.20AdderallPack],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100AdderallPack,
+		}
+	}
+
+	craftRecipe Pack100Adderall_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.10AdderallPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100AdderallPack,
+		}
+	}
+
+	craftRecipe Pack1kgAdderall_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 1000,
+		category = Drugs,
+		inputs
+		{
+			item 1000 [DrugsDLC.Adderall],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000AdderallPack,
+		}
+	}
+
+	craftRecipe Pack1kgAdderall_From100Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 50,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.100AdderallPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000AdderallPack,
+		}
+	}
+
+	craftRecipe Pack1kgAdderall_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 80,
+		category = Drugs,
+		inputs
+		{
+			item 50 [DrugsDLC.20AdderallPack],
+			item 15 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000AdderallPack,
+		}
+	}
+
+	craftRecipe Pack1kgAdderall_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 120,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.10AdderallPack],
+			item 20 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000AdderallPack,
+		}
+	}
+
+}

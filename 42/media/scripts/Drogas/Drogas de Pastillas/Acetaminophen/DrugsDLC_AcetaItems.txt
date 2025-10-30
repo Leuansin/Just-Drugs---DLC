@@ -1,0 +1,141 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+
+item AcetaminophenBottle
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Bottle of Acetaminophen,
+        DisplayCategory     = Drugs,
+        Icon                = AcetaminophenBottle,
+        WorldStaticModel 	= FrasquitoZX,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Acetaminophen
+    {
+        DisplayName                 = Acetaminophen,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 8,
+		FatigueChange 				= 2,
+		StressChange				= -10,
+		ReduceInfectionPower     	= 12, 
+	        OnEat = RecipeCodeOnEat.wildFoodGeneric,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+item ParacetamolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Panadol 500mg,
+        DisplayCategory     = Drugs,
+        Icon                = ParacetamolBox,
+        WorldStaticModel 	= Tentramitrozonuno,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Paracetamol
+    {
+        DisplayName                 = Paracetamol 500mg,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 5,
+		FatigueChange 				= 2,
+		ReduceFoodSickness 			= 4,
+		StressChange				= -5,
+		ReduceInfectionPower     	= 8, 
+	        OnEat = RecipeCodeOnEat.wildFoodGeneric,
+
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+item PanadolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Panadol 500mg,
+        DisplayCategory     = Drugs,
+        Icon                = PanadolBox,
+        WorldStaticModel 	= Tentramitrozondos,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Panadol
+    {
+        DisplayName                 = Panadol 500mg,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		ReduceFoodSickness 			= 5,
+		PainReduction 				= 3,
+		FatigueChange 				= 1,
+		StressChange				= -3,
+		ReduceInfectionPower     	= 8, 
+	        OnEat = RecipeCodeOnEat.wildFoodGeneric,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+
+item TylenolBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Tylenol 500mg,
+        DisplayCategory     = Drugs,
+        Icon                = TylenolBox,
+        WorldStaticModel 	= Tentramitrozoncuatro,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+
+item Tylenol
+    {
+        DisplayName                 = Tylenol,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 5,
+		FatigueChange 				= 2,
+		StressChange				= -5,
+		ReduceInfectionPower     	= 8, 
+		ReduceFoodSickness 			= 4,
+	        OnEat = RecipeCodeOnEat.wildFoodGeneric,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Acetaminophen,
+    }
+}

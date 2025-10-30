@@ -1,0 +1,62 @@
+module DrugsDLC
+{
+
+	imports
+	{
+		Base
+	}
+
+	craftRecipe AddMorphineIntoNeedle
+	{
+		Tags = InHandCraft,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.MorphineBottle],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.MorphineNeedle,
+		}
+	}
+
+	craftRecipe MakeMorphineCompound
+	{
+		Tags = AnySurfaceCraft,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.OxycodoneCompound],
+			item 1 [DrugsDLC.AmmoniaBottle],
+			item 1 [Base.Pills],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 6 DrugsDLC.MorphineCompound,
+		}
+	}
+
+	craftRecipe MakeMorphine
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 6 [DrugsDLC.MorphineCompound],
+			item 1 [DrugsDLC.XanaxCompound],
+
+		}
+		outputs
+		{
+			item 1 DrugsDLC.MorphineBottle,
+		}
+	}
+}

@@ -1,0 +1,9 @@
+ContextMenu_UA = {
+    ContextMenu_Inhale = "Вдихнути",
+    ContextMenu_Inject = "Ввести ін'єкцію",
+    ContextMenu_Swallow = "Ковтнути",
+    ContextMenu_Eat_Shrooms = "З'їсти гриби",
+    ContextMenu_Take_Pill = "Прийняти таблетку",
+    ContextMenu_Drink_Lean = "Випити",
+    ContextMenu_Smoke_Meth = "Палити",
+}

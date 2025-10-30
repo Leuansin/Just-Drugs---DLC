@@ -1,0 +1,136 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Adderall
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Adderall,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Adderall
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Adderall,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Adderall
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Adderall,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Adderall
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Adderall,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Adderall_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5AdderallPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Adderall_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10AdderallPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Adderall_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20AdderallPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Adderall_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000AdderallPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100AdderallPack,
+ 		}
+ 	}
+
+}

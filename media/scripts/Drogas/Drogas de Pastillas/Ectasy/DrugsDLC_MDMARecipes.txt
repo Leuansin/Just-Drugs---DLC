@@ -1,0 +1,40 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Extract Ectasy Compound
+	{
+		DrugsDLC.PhenyCompound=1,
+		PillsAntiDep=1,
+		PillsSleepingTablets=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.EctasyCompound=6,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Make Ectasy
+	{
+		DrugsDLC.EctasyCompound=10,
+		DrugsDLC.AmmoniaBottle=1,
+		DrugsDLC.PhenyBottle=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.MDMA=6,
+		Time: 30.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+}

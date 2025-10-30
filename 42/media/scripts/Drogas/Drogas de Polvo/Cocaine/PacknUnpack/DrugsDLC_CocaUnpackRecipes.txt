@@ -1,0 +1,144 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Cocaine
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5CocainePack],
+ 			item 5 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Cocaine,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Cocaine
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10CocainePack],
+ 			item 10 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Cocaine,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Cocaine
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20CocainePack],
+ 			item 20 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Cocaine,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Cocaine
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100CocainePack],
+ 			item 100 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Cocaine,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Cocaine_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10CocainePack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5CocainePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Cocaine_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20CocainePack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10CocainePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Cocaine_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100CocainePack],
+			item 5 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20CocainePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Cocaine_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000CocainePack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100CocainePack,
+ 		}
+ 	}
+
+}

@@ -1,0 +1,242 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+	craftRecipe Pack5Neoprene
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.Neoprene],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.5NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack10Neoprene_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.5NeoprenePack],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack10Neoprene_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.Neoprene],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack20Neoprene_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 20 [DrugsDLC.Neoprene],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20NeoprenePack,
+		}
+	}
+	
+	craftRecipe Pack20Neoprene_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.10NeoprenePack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack20Neoprene_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 4 [DrugsDLC.5NeoprenePack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack100Neoprene_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 100,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.Neoprene],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack100Neoprene_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.20NeoprenePack],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack100Neoprene_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.10NeoprenePack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack1kgNeoprene_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 1000,
+		category = Drugs,
+		inputs
+		{
+			item 1000 [DrugsDLC.Neoprene],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack1kgNeoprene_From100Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 50,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.100NeoprenePack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack1kgNeoprene_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 80,
+		category = Drugs,
+		inputs
+		{
+			item 50 [DrugsDLC.20NeoprenePack],
+			item 15 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000NeoprenePack,
+		}
+	}
+
+	craftRecipe Pack1kgNeoprene_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 120,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.10NeoprenePack],
+			item 20 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000NeoprenePack,
+		}
+	}
+
+}

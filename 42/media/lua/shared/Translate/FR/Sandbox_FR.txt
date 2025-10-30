@@ -1,0 +1,31 @@
+Sandbox_FR = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | Par Leuan",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Taux d'apparition des drogues hallucinogènes",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Taux d'apparition des drogues inhalables",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Taux d'apparition des drogues en poudre",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Taux d'apparition des drogues à base de plantes",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Taux d'apparition des drogues pharmaceutiques",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Taux d'apparition des drogues désintoxiquantes",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Taux d'apparition des drogues dans les zombies",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Taux d'apparition des flacons de composés chimiques",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = 'Taux d\'apparition des livres "Chimie 101"',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "Taux d'apparition des sacs de drogue vides",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Augmentation de l'ennui toutes les heures",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Jours pour surmonter la dépendance aux drogues",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Champignons, Acide, MDMA, Ecstasy, etc...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Déodorants, Jenkem et Néoprène",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Cocaïne, Héroïne, Fentanyl, Méthamphétamine, etc...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Souffle du Diable, etc...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofène, Vicodine, Tramadol, Xanax, etc...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Lopéramide, Bismuth. Drogues qui aident contre les overdoses",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Modifie le taux d'apparition des objets dans le cadavre d'un zombie.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Flacons d'ammoniac, phénol, éthanol, potassium, etc...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Livres qui enseignent les recettes pour fabriquer une drogue spécifique.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Sacs de drogue vides. (Utiles pour la fabrication)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Seule la dépendance aux drogues augmente l'ennui chaque heure, donc cela aide à le configurer.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Rappelez-vous que vous ne devez avoir aucune drogue dans votre inventaire pour que cela compte.",
+}

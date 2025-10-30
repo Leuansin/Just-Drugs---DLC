@@ -1,0 +1,32 @@
+Sandbox_CH = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | By Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "致幻药物生成率 %",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "吸入性药物生成率 %",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "粉末状药物生成率 %",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "草药类药物生成率 %",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "药物（药片）生成率 %",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "解毒药物生成率 %",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "僵尸身上药物生成率 %",
+   
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "化合物瓶生成率 %",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = '"化学101"书籍生成率 %',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "空毒品袋生成率 %",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "每小时无聊度增加",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "克服毒瘾特性所需天数",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "蘑菇、LSD、MDMA、摇头丸等...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "除臭剂、Jenkem和氯丁橡胶",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "可卡因、海洛因、芬太尼、甲基苯丙胺等...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "死藤水、卡塔叶、佩奥特掌、魔鬼之息等...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "布洛芬、维柯丁、曲马多、阿普唑仑等...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "纳洛酮、洛哌丁胺、铋。有助于对抗[过量服用]的药物",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "修改僵尸尸体上的物品生成。",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "氨水、苯酚、乙醇、钾等瓶子...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "教授制造特定药物配方的书籍。",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "空毒品袋。（用于制作）",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "只有毒瘾特性会每小时增加无聊度，所以这有助于设置它。",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "请记住，你的物品栏中不能有任何毒品才能计算在内。",
+}

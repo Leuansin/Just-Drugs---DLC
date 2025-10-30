@@ -1,0 +1,62 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsOxycodone
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.OxycodoneBottle],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Oxycodone,
+		}
+	}
+
+	craftRecipe MakeOxycodoneCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.MorphineCompound] mode:keep,
+			item 1 [DrugsDLC.Acetaminophen],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 12 DrugsDLC.OxycodoneCompound,
+		}
+	}
+
+	craftRecipe MakeOxycodone
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 12 [DrugsDLC.OxycodoneCompound],
+			item 1 [DrugsDLC.MorphineCompound],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.PercoBottle,
+		}
+	}
+}

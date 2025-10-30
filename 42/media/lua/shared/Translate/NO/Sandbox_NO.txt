@@ -1,0 +1,31 @@
+Sandbox_NO = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | By Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Alkoholisk Drogen Spawn Rate",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Inhalerbare Drogen Spawn Rate",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Pulver Drogen Spawn Rate",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Urtebaserte Drogen Spawn Rate",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Farmasøytiske Drogen Spawn Rate",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Avgiftning Drogen Spawn Rate",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Zombie Drogen Loot Spawn Rate",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Flaske Kjemikalie Spawn Rate",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = 'Chemistry 101 Bok Spawn Rate',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "Tomme Drogenposer Spawn Rate",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Kjedelighet Økning Hver Time",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Dager for å Overvinne Drogenavhengighet Egenskap",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Sopp, LSD, MDMA, Ecstasy, osv...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Deodoranter, Jenkem og Neopren",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Kokain, Heroin, Fentanil, Metamfetamin, osv...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Devil's Breath, osv...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofen, Vicodin, Tramadol, Xanax, osv...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamid, Bismuth. Drogen som hjelper mot overdose",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Modifiserer spawn av objekter i en zombies kropp.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Flasker med Ammoniakk, Fenol, Etanol, Kalium, osv...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Bøker som lærer oppskrifter for å lage spesifikke stoffer.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Tomme Drogenposer. (Nyttig for produksjon)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Bare Drogenavhengighetsegenskapen øker kjedsomheten hver time, så dette hjelper med å konfigurere det.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Husk at du ikke bør ha noen stoff i inventaret ditt for at det skal telle.",
+}

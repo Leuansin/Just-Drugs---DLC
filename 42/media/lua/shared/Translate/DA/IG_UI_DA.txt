@@ -1,0 +1,42 @@
+IGUI_DA = {
+
+    IGUI_CraftCategory_Drugs = "Drogas",
+    IGUI_ItemCat_Drugs = "Drogas",
+    IGUI_ItemCat_Item = "Artikel",
+    
+    IGUI_Intoxicacion_Levellow = "Milde overdosis symptomer opdaget; find Loperamid.",
+    IGUI_Intoxicacion_Levelmid = "Moderate overdosis symptomer til stede; find Bismuth Subsalicylate.",
+    IGUI_Intoxicacion_Levelhigh = "Alvorlige overdosis symptomer opdaget; Narcan kræves straks.",
+
+    IGUI_2days_Abstinence = "For fanden!, jeg føler, at jeg har brug for nogle stoffer...",
+    IGUI_72_Abstinence = "72 timer, dette burde være abstinensens top...",
+    IGUI_73_Abstinence = "JEG BEHØVER DEM!",
+    IGUI_96_Abstinence = "Jeg ville dræbe for nogle svampe.",
+    IGUI_115_Abstinence= "115 timer uden stoffer... Jeg er virkelig stolt.",
+    IGUI_168_Abstinence = "1 uge uden dem, jeg skal stoppe med at tænke på det.",
+    IGUI_300_Abstinence = "Jeg kan godt lide at være ædru...",
+    IGUI_400_Abstinence = "Jeg kan virkelig godt lide at være ædru",
+    IGUI_Beat_DrugAddiction = "21 dage i træk? Wow, jeg gætter på, at jeg ikke længere har brug for dem.",
+    IGUI_Start_ofAddiction = "Jeg tror, min krop begynder at bede om stoffer... Er jeg blevet en narkoman?",
+    IGUI_Need_Drugs = "Jeg har brug for nogle stoffer.",
+
+    IGUI_DrogadictoTrait = "Narkoman",
+    IGUI_DrogadictoDescription = "Du er en narkoman. Din krop vil bede om stoffer, og du vil kede dig.\nDu vil opleve abstinenssymptomer, hvis du ikke indtager stoffer i 12 timer.\nDu kan til sidst overvinde din afhængighed, hvis du ikke indtager stoffer i 21 dage.\n(Denne egenskab vil automatisk blive tilføjet, hvis du indtager mange stoffer i spillet)",
+    IGUI_WalterWhiteTrait = "Drogkongen",
+    IGUI_WalterWhiteDescription = "Du har altid været klogere end de andre. Du var den, der lavede og solgte stoffer!\nDu starter med opskrifterne på, hvordan man laver stoffer (kun hårde stoffer, ikke farmaceutiske lægemidler)",
+    IGUI_FarmaceuticoTrait = "Apoteker",
+    IGUI_FarmaceuticoDescription = "Du gik på universitetet for at studere medicin\nDu endte som apoteker og lærte alle opskrifter på farmaceutiske stoffer.",
+
+    IGUI_GoodTrip = "Hvilket godt trip, jeg lige har haft, det var helbredende og alt.",
+    IGUI_BadTrip = "For fanden, det var ikke et af de bedste trips, jeg har haft.",
+    IGUI_HorribleTrip = "DET VAR ET HORRIBELT TRIP! JEG SKAL ROE MIG NED",
+
+    IGUI_GoodTripHardcore = "For fanden, det var en smuk oplevelse, jeg havde virkelig brug for det.",
+    IGUI_BadTripHardcore = "For fanden, jeg begyndte at tænke på dårlige ting og fik et dårligt trip.",
+    IGUI_HorribleTripHardcore = "SKAL JEG DØ?! VIL JEG FØLE MIG SÅDAN HER FOR EVIGT?! DER ER INGEN UDVEJEN!",
+
+    IGUI_NeedMoreMushrooms = "Jeg føler mig lidt mærkelig, måske hvis jeg spiser nogle flere, får jeg et trip.",
+    IGUI_NeedMoreMushroomsHardcore = "Det begynder allerede at slå til, hvis jeg indtager nogle flere, får jeg et trip.",
+    
+    IGUI_ConsumeDrug_Message = "Jeg har indtaget %1. Jeg tror, jeg har taget omkring %2 indtil nu.",
+}

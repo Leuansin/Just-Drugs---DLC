@@ -1,0 +1,30 @@
+Sandbox_JP = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | 作成者: Leuan",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "幻覚剤のスポーン率",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "吸入可能ドラッグのスポーン率",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "粉末ドラッグのスポーン率",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "植物性ドラッグのスポーン率",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "薬剤ドラッグのスポーン率",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "解毒薬のスポーン率",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "ゾンビ内のドラッグのスポーン率",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "化学薬品ボトルのスポーン率",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = "『化学101』の本のスポーン率",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "1時間あたりの退屈増加量",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "ドラッグ依存特性を克服するための日数",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "キノコ、LSD、MDMA、エクスタシーなど",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "デオドラント、ジェンケム、ネオプレン",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "コカイン、ヘロイン、フェンタニル、メタンフェタミンなど",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "アヤワスカ、カート、ペヨーテ、デビルズブレスなど",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "イブプロフェン、ビコディン、トラマドール、ザナックスなど",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "ナーカン、ロペラミド、ビスマス。過剰摂取の対策に役立つ薬。",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "ゾンビの体内にスポーンするアイテムの出現率を変更します。",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "アンモニア、フェニル、エタノール、カリウムなどのボトル。",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "特定のドラッグを作るためのレシピを教える本。",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "空のドラッグバッグ。（クラフトに便利）",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "退屈はドラッグ依存特性が選択された場合のみ増加します。退屈の増加速度を設定します。",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "これが有効と見なされるためには、インベントリ内にドラッグが存在しない必要があります。"
+}

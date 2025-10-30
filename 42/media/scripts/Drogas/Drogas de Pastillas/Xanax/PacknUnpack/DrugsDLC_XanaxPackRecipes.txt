@@ -1,0 +1,242 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+	craftRecipe Pack5Xanax
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.Xanax],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.5XanaxPack,
+		}
+	}
+
+	craftRecipe Pack10Xanax_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.5XanaxPack],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10XanaxPack,
+		}
+	}
+
+	craftRecipe Pack10Xanax_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.Xanax],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10XanaxPack,
+		}
+	}
+
+	craftRecipe Pack20Xanax_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 20 [DrugsDLC.Xanax],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20XanaxPack,
+		}
+	}
+	
+	craftRecipe Pack20Xanax_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.10XanaxPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20XanaxPack,
+		}
+	}
+
+	craftRecipe Pack20Xanax_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 4 [DrugsDLC.5XanaxPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20XanaxPack,
+		}
+	}
+
+	craftRecipe Pack100Xanax_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 100,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.Xanax],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100XanaxPack,
+		}
+	}
+
+	craftRecipe Pack100Xanax_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.20XanaxPack],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100XanaxPack,
+		}
+	}
+
+	craftRecipe Pack100Xanax_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.10XanaxPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100XanaxPack,
+		}
+	}
+
+	craftRecipe Pack1kgXanax_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 1000,
+		category = Drugs,
+		inputs
+		{
+			item 1000 [DrugsDLC.Xanax],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000XanaxPack,
+		}
+	}
+
+	craftRecipe Pack1kgXanax_From100Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 50,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.100XanaxPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000XanaxPack,
+		}
+	}
+
+	craftRecipe Pack1kgXanax_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 80,
+		category = Drugs,
+		inputs
+		{
+			item 50 [DrugsDLC.20XanaxPack],
+			item 15 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000XanaxPack,
+		}
+	}
+
+	craftRecipe Pack1kgXanax_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 120,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.10XanaxPack],
+			item 20 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000XanaxPack,
+		}
+	}
+
+}

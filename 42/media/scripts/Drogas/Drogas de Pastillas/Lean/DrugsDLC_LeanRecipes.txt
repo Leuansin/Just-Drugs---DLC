@@ -1,0 +1,27 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe MakeLean
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 12,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [Base.PopBottle],
+			item 1 [Base.MapleSyrup;Base.PillsBeta;Base.Pills;Base.PillsSleepingTablets;Base.PillsVitamins;Base.PillsAntiDep],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.Lean,
+		}
+	}
+
+}

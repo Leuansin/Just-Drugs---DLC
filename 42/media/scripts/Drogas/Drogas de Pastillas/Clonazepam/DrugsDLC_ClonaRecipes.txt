@@ -1,0 +1,63 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsClonazepam
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.ClonazepamBox],
+		}
+		outputs
+		{
+			item 6 DrugsDLC.Clonazepam,
+		}
+	}
+
+	craftRecipe MakeClonazepamCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.MorphineCompound],
+			item 1 [DrugsDLC.OxycodoneCompound],
+			item 1 [Base.Pills],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 6 DrugsDLC.ClonazepamCompound,
+		}
+	}
+
+	craftRecipe MakeClonazepam
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 6 [DrugsDLC.ClonazepamCompound],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.ClonazepamBox,
+		}
+	}
+
+}

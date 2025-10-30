@@ -1,0 +1,30 @@
+Sandbox_CH = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | Por Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Tasa de aparición de drogas alucinógenas",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Tasa de aparición de drogas inhalables",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Tasa de aparición de drogas en polvo",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Tasa de aparición de drogas herbales",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Tasa de aparición de drogas farmacéuticas",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Tasa de aparición de medicamentos desintoxicantes",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Tasa de aparición de drogas en zombis",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Tasa de aparición de frascos químicos",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = "Tasa de aparición de libros 'Química 101'",
+    
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Incremento de aburrimiento por hora",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Días para superar la adicción del rasgo Drogadicto",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Hongos, ácido, MDMA, éxtasis, etc...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Desodorantes, Jenkem y neopreno",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Cocaína, heroína, fentanilo, metanfetamina, etc...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, khat, peyote, escopolamina, etc...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofeno, Vicodin, Tramadol, Xanax, etc...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamida, Bismuto. Drogas que ayudan a combatir sobredosis.",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Modifica la tasa de aparición de objetos en cuerpos de zombis.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Frascos de amoníaco, feniletilamina, etanol, potasio, etc...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Libros que enseñan recetas para fabricar ciertas drogas.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Bolsas vacías de drogas. (Útiles para craftear)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "El aburrimiento solo aumenta si se tiene el rasgo de Drogadicto. Esto ajusta la velocidad con la que aumenta el aburrimiento.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Recuerda que no debes tener drogas en el inventario para que esto cuente.",
+}

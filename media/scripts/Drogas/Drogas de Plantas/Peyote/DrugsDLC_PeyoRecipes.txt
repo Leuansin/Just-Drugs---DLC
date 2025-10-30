@@ -1,0 +1,31 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Add Peyote to Tea
+{
+	DrugsDLC.Peyote=1,
+	Teacup=1,
+	Result:DrugsDLC.PeyoteInfusion=1,
+	Time: 10.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+recipe Make Peyote Infusion
+{
+	DrugsDLC.PeyoteInfusion=1,
+	Teacup=1,
+	Result:DrugsDLC.PeyoteTea=1,
+	Time: 40.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+}

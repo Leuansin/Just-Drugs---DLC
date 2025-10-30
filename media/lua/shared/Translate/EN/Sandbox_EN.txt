@@ -1,0 +1,32 @@
+Sandbox_EN = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | By Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Spawn Rate of Hallucinogens Drugs",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Spawn Rate of Inhalable Drugs",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Spawn Rate of Powder Drugs",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Spawn Rate of Plant Based Drugs",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Spawn Rate of Pharmaceutical Drugs",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Spawn Rate of Detox Drugs",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Spawn Rate of Drugs in Zombies",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Spawn Rate of Compound Bottles",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = "Spawn Rate of "Chemistry 101" Books",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "Spawn Rate of Empty Drug Bags",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Boredom Increment on Every Hour",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Days to overcome Drug Addiction Trait",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Shrooms, Acid, MDMA, Ectasy, etc...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Deodorants, Jenkem and Neoprene",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Cocaine, Heroin, Fentanyl, Meth, etc...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Devils Breath, etc...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofen, Vicodin, Tramadol, Xanax, etc...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamide, Bismuth. Drugs that help fighting Overdoses",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Modify Spawn Rate of Items in a Zombie Corpse.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Bottles of Ammonia, Pheny, Ethanol, Potassium, etc...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Books that teaches the recipes to craft a specific drug.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Empty Drug Bags. (Useful for crafting)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Only Drug Addict Trait increases Boredom Every Hour, so this helps configuring it.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Remember that you don't gotta have any drugs in your inventory to count.",
+
+}

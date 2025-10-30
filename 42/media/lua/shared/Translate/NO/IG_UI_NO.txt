@@ -1,0 +1,42 @@
+IGUI_NO = {
+
+    IGUI_CraftCategory_Drugs = "Dop",
+    IGUI_ItemCat_Drugs = "Dop",
+    IGUI_ItemCat_Item = "Artikkel",
+    
+    IGUI_Intoxicacion_Levellow = "Milde symptomer på overdose oppdaget; søk etter Loperamid.",
+    IGUI_Intoxicacion_Levelmid = "Moderat overdose symptomer tilstede; finn Bismut Subsalicylat.",
+    IGUI_Intoxicacion_Levelhigh = "Alvorlige overdose symptomer oppdaget; Narcan er nødvendig umiddelbart.",
+
+    IGUI_2days_Abstinence = "Jævla helvete!, Jeg føler at jeg trenger noen dop...",
+    IGUI_72_Abstinence = "72 timer, dette burde være toppen av abstinens...",
+    IGUI_73_Abstinence = "JEG TRENGER DEM!",
+    IGUI_96_Abstinence = "Jeg ville drept for noen sopper.",
+    IGUI_115_Abstinence= "115 timer uten dop... Jeg er virkelig stolt.",
+    IGUI_168_Abstinence = "1 uke uten dem, jeg må slutte å tenke på det.",
+    IGUI_300_Abstinence = "Jeg liker å være edru litt...",
+    IGUI_400_Abstinence = "Jeg liker virkelig å være edru",
+    IGUI_Beat_DrugAddiction = "21 dager på rad? Wow, jeg antar at jeg ikke trenger dem lenger.",
+    IGUI_Start_ofAddiction = "Jeg tror kroppen min ber om dop... Har jeg blitt en avhengig?",
+    IGUI_Need_Drugs = "Jeg trenger litt dop.",
+
+    IGUI_DrogadictoTrait = "Avhengig",
+    IGUI_DrogadictoDescription = "Du er en avhengig. Kroppen din vil be om dop og du vil kjede deg.\nDu vil oppleve abstinenssymptomer hvis du ikke bruker dop på 12 timer.\nDu kan til slutt overvinne avhengigheten hvis du ikke bruker dop på 21 dager.\n(Denne egenskapen legges automatisk til hvis du bruker mye dop i spillet)",
+    IGUI_WalterWhiteTrait = "Drogbaron",
+    IGUI_WalterWhiteDescription = "Du var alltid smartere enn de andre. Du var den som laget og solgte dop!\nDu starter med Lærte Oppskrifter på Hvordan Lage Dop (Kun harde stoffer, ikke reseptbelagte medisiner)",
+    IGUI_FarmaceuticoTrait = "Apoteker",
+    IGUI_FarmaceuticoDescription = "Du dro til universitetet for å studere medisin\nDu ble apoteker og kjenner alle oppskriftene på farmasøytiske stoffer.",
+
+    IGUI_GoodTrip = "For en god tur jeg nettopp hadde, det var helbredende og alt.",
+    IGUI_BadTrip = "Faen, det var ikke en av de beste turene jeg har hatt.",
+    IGUI_HorribleTrip = "DET VAR EN HORRIBEL TUR! JEG TRENGER Å ROE MEG NED",
+
+    IGUI_GoodTripHardcore = "Faen, det var en vakker opplevelse, jeg trengte virkelig det.",
+    IGUI_BadTripHardcore = "Faen, jeg begynte å tenke på dårlige ting og hadde en dårlig tur.",
+    IGUI_HorribleTripHardcore = "SKAL JEG DØ?! VIL JEG FØLE MEG SLIK FOR EVIG?! DET ER INGEN FLUKT!",
+
+    IGUI_NeedMoreMushrooms = "Jeg føler meg litt rar, kanskje hvis jeg spiser noen flere vil jeg få en tur.",
+    IGUI_NeedMoreMushroomsHardcore = "Dette begynner å treffe, hvis jeg tar noen flere vil jeg få en tur.",
+    
+    IGUI_ConsumeDrug_Message = "Jeg har brukt %1. Jeg tror jeg har tatt %2 så langt.",
+}

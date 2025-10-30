@@ -1,0 +1,70 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item RexonaDesodorante
+{
+	    Weight              = 0.1,
+    
+        Type                = Normal,
+        DisplayName         = Rexona,
+        DisplayCategory     = Drugs,
+        Icon                = RexonaDesodorante,
+        WorldStaticModel 	= HairSpray,
+		Tooltip 		    = Tooltip_Desodorante,
+}
+
+item OldSpiceDesodorante
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Old Spice,
+        DisplayCategory     = Drugs,
+        Icon                = OldSpiceDesodorante,
+        WorldStaticModel 	= HairSpray,
+		Tooltip 		    = Tooltip_Desodorante,
+}
+
+item AxeDesodorante
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Axe Chocolate,
+        DisplayCategory     = Drugs,
+        Icon                = AxeChocolateDesodorante,
+        WorldStaticModel 	= HairSpray,
+		Tooltip 		    = Tooltip_Desodorante,
+}
+
+item DeodorantTowel
+    {
+        DisplayName                 = Towel with Deodorant,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Bathtowel,
+        Packaged                    = FALSE,
+		FatigueChange 				= 60,
+		StressChange				= 80,
+		PainReduction 				= 80,
+		UnhappyChange				= -250,  
+		HungerChange 				= -250,
+		ThirstChange				= 38,
+		EnduranceChange 			= -100,
+		BoredomChange 				= -250,
+		ReduceInfectionPower     	= 20, 
+		Poison						= true,
+		PoisonPower					= 1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Inhale,
+		CustomEatSound              = Snorting,
+		ReplaceOnUse	        	= BathTowel,
+        WorldStaticModel 			= BathTowel,
+		Tooltip 					= Tooltip_DeodorantTowel,
+    }
+
+}

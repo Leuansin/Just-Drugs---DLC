@@ -1,0 +1,31 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Add Ayahuasca to Tea
+{
+	DrugsDLC.Ayahuasca=1,
+	Teacup=1,
+	Result:DrugsDLC.AyahuascaInfusion=1,
+	Time: 10.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+recipe Make Ayahuasca Infusion
+{
+	DrugsDLC.AyahuascaInfusion=1,
+	Teacup=1,
+	Result:DrugsDLC.AyahuascaTea=1,
+	Time: 40.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+}

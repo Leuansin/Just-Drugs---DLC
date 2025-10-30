@@ -1,0 +1,42 @@
+IGUI_JP = {
+
+    IGUI_CraftCategory_Drugs = "薬物",
+    IGUI_ItemCat_Drugs = "薬物",
+    IGUI_ItemCat_Item = "アイテム",
+    
+    IGUI_Intoxicacion_Levellow = "軽度の過剰摂取症状が検出されました。ロペラミドを探してください。",
+    IGUI_Intoxicacion_Levelmid = "中程度の過剰摂取症状が検出されました。ビスマスサリシル酸を見つけてください。",
+    IGUI_Intoxicacion_Levelhigh = "重度の過剰摂取症状が検出されました。直ちにナーカンが必要です。",
+
+    IGUI_2days_Abstinence = "くそっ！薬物が必要かも…",
+    IGUI_72_Abstinence = "72時間、これは禁断症状のピークのはず…",
+    IGUI_73_Abstinence = "今すぐ必要だ！",
+    IGUI_96_Abstinence = "キノコのためなら何でもする。",
+    IGUI_115_Abstinence = "115時間薬物なし…誇らしい気分だ。",
+    IGUI_168_Abstinence = "薬物なしで1週間、考えるのをやめなければ。",
+    IGUI_300_Abstinence = "なんだかクリーンでいるのが好きになってきた…",
+    IGUI_400_Abstinence = "クリーンでいるのが本当に好きだ。",
+    IGUI_Beat_DrugAddiction = "21日間薬物を使わずに過ごした？ついにクリーンになった気がする。",
+    IGUI_Start_ofAddiction = "体が薬物を欲しているようだ…中毒になったのか？",
+    IGUI_Need_Drugs = "薬物が必要だ。",
+
+    IGUI_DrogadictoTrait = "薬物中毒",
+    IGUI_DrogadictoDescription = "あなたは薬物中毒です。体が薬物を欲し、退屈しやすくなります。\n12時間何も摂取しないと禁断症状が現れます。\n（ゲーム内で薬物を大量に摂取すると、この特性が自動的に追加されます。）",
+    IGUI_WalterWhiteTrait = "ドラッグのボス",
+    IGUI_WalterWhiteDescription = "あなたは常に他の人より頭が良かった。薬物を作り販売する人間だったのです！\n薬物のレシピに関する知識を持ってゲームを開始します（強力な薬物のみ、医薬品を除く）。",
+    IGUI_FarmaceuticoTrait = "薬剤師",
+    IGUI_FarmaceuticoDescription = "大学で医学を学びました。\n最終的には薬剤師になり、医薬品に関するすべてのレシピを知っています。",
+
+    IGUI_GoodTrip = "わあ、素晴らしいトリップだった。本当に気持ちよかった。",
+    IGUI_BadTrip = "くそっ、最悪のトリップだった。",
+    IGUI_HorribleTrip = "何だったんだ？本当にひどい体験だった！落ち着かないと！",
+
+    IGUI_GoodTripHardcore = "なんて美しい経験だ。まさにこれが必要だった。",
+    IGUI_BadTripHardcore = "くそっ、頭がぐちゃぐちゃで、トリップが本当に最悪だった。",
+    IGUI_HorribleTripHardcore = "死ぬのか？これが永遠に終わらない気がする！完全にトリップに捕まっている！",
+
+    IGUI_NeedMoreMushrooms = "なんだか変な感じがする。もっとキノコを食べれば、トリップが本当に始まるかも。",
+    IGUI_NeedMoreMushroomsHardcore = "今感じるものがある。もっと摂取すれば、トリップが本当に激しくなる！",
+    
+    IGUI_ConsumeDrug_Message = "今%1を摂取した。これまで合計で約%2摂取したと思う。",
+}

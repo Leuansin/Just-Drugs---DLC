@@ -1,0 +1,41 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe SprayTowelWithDeodorant
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 12,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.OldSpiceDesodorante;DrugsDLC.RexonaDesodorante;DrugsDLC.AxeDesodorante],
+			item 1 [Base.BathTowel;Base.DishCloth;Base.BathTowelWet;Base.DishClothWet],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.DeodorantTowel,
+		}
+	}
+
+	craftRecipe SprayYourself
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 7,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.OldSpiceDesodorante;DrugsDLC.RexonaDesodorante;DrugsDLC.AxeDesodorante] mode:keep,
+		}
+		outputs
+		{
+		}
+	}
+
+}

@@ -1,0 +1,144 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5DMT
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5DMTPack],
+ 			item 5 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.DMT,
+ 		}
+ 	}
+
+	craftRecipe Unpack10DMT
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10DMTPack],
+ 			item 10 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.DMT,
+ 		}
+ 	}
+
+	craftRecipe Unpack20DMT
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20DMTPack],
+ 			item 20 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.DMT,
+ 		}
+ 	}
+
+	craftRecipe Unpack100DMT
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100DMTPack],
+ 			item 100 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.DMT,
+ 		}
+ 	}
+
+	craftRecipe Unpack10DMT_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10DMTPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5DMTPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20DMT_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20DMTPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10DMTPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100DMT_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100DMTPack],
+			item 5 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20DMTPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000DMT_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000DMTPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100DMTPack,
+ 		}
+ 	}
+
+}

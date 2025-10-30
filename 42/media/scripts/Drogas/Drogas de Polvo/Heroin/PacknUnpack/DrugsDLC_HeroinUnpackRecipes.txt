@@ -1,0 +1,144 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Heroin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5HeroinPack],
+ 			item 5 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Heroin,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Heroin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10HeroinPack],
+ 			item 10 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Heroin,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Heroin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20HeroinPack],
+ 			item 20 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Heroin,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Heroin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100HeroinPack],
+ 			item 100 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Heroin,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Heroin_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10HeroinPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5HeroinPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Heroin_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20HeroinPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10HeroinPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Heroin_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100HeroinPack],
+			item 5 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20HeroinPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Heroin_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000HeroinPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100HeroinPack,
+ 		}
+ 	}
+
+}

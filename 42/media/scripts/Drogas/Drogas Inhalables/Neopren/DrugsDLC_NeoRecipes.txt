@@ -1,0 +1,26 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe PutBagOnTop
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 60,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Neoprene],
+			item 1 [Base.GroceryBag1;Base.GroceryBag2;Base.GroceryBag3;Base.GroceryBag4;Base.GroceryBag5;Base.Plasticbag;Base.PaperBag;Base.Paperbag_Jays;Base.Paperbag_Spiffos;Base.Lunchbag;Base.Tote],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.NeopreneBag,
+		}
+	}
+
+}

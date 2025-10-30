@@ -1,0 +1,66 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe MakeAcidBase
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.PhenyBottle],
+			item 1 [DrugsDLC.PotassiumBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 5 DrugsDLC.ErgotaCompound,
+		}
+	}
+
+	craftRecipe MakeAcidCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 14,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 5 [DrugsDLC.ErgotaCompound],
+			item 1 [DrugsDLC.IodoricAcidBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 10 DrugsDLC.AcidCompound,
+		}
+	}
+
+	craftRecipe DryTheAcidCompound
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 10 [DrugsDLC.AcidCompound],
+			item 10 [DrugsDLC.BolsaDeDroga],
+		}
+		outputs
+		{
+			item 10 DrugsDLC.Acid,
+		}
+	}
+}

@@ -1,0 +1,73 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsAcetaminophen
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.AcetaminophenBottle],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Acetaminophen,
+		}
+	}
+
+	craftRecipe TakePillsParacetamol
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.ParacetamolBox],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Paracetamol,
+		}
+	}
+
+	craftRecipe TakePillsTylenol
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.TylenolBox],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Tylenol,
+		}
+	}
+
+	craftRecipe TakePillsPanadol
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.PanadolBox],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Panadol,
+		}
+	}
+
+}

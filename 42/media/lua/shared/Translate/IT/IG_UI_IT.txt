@@ -1,0 +1,41 @@
+IGUI_IT = {
+    IGUI_CraftCategory_Drugs = "Droghe",
+    IGUI_ItemCat_Drugs = "Droghe",
+    IGUI_ItemCat_Item = "Oggetto",
+    
+    IGUI_Intoxicacion_Levellow = "Sintomi lievi di overdose rilevati; cerca Loperamide.",
+    IGUI_Intoxicacion_Levelmid = "Sintomi moderati di overdose presenti; cerca Bismuto Subsalicilato.",
+    IGUI_Intoxicacion_Levelhigh = "Sintomi gravi di overdose rilevati; è necessaria immediatamente Narcan.",
+    
+    IGUI_2days_Abstinence = "Dannazione, sento di aver bisogno di alcune droghe...",
+    IGUI_72_Abstinence = "72 ore, questo dovrebbe essere il picco dell'astinenza...",
+    IGUI_73_Abstinence = "NE HO BISOGNO!",
+    IGUI_96_Abstinence = "Ucciderei per dei funghi.",
+    IGUI_115_Abstinence = "115 ore senza droghe... Sono davvero orgoglioso.",
+    IGUI_168_Abstinence = "1 settimana senza di loro, devo smettere di pensarci.",
+    IGUI_300_Abstinence = "Mi piace un po' stare sobrio...",
+    IGUI_400_Abstinence = "Mi piace molto stare sobrio",
+    IGUI_Beat_DrugAddiction = "21 giorni consecutivi? Wow, penso che non ne abbia più bisogno.",
+    IGUI_Start_ofAddiction = "Penso che il mio corpo mi stia chiedendo droghe... Sono diventato dipendente?",
+    IGUI_Need_Drugs = "Ho bisogno di alcune droghe.",
+    
+    IGUI_DrogadictoTrait = "Dipendente",
+    IGUI_DrogadictoDescription = "Sei un Dipendente. Il tuo corpo ti chiederà droghe e ti annoierai.\nAvrai effetti di astinenza se non consumi per 12 ore.\nAlla fine puoi superare la tua dipendenza se non consumi per 21 giorni.\n(Questo tratto verrà aggiunto automaticamente se consumi molte droghe nel gioco)",
+    IGUI_WalterWhiteTrait = "Signore della Droga",
+    IGUI_WalterWhiteDescription = "Sei sempre stato più intelligente degli altri. Eri quello che produceva e vendeva le droghe!\nInizi con le Ricette Imparate per Come Fare Droghe (Solo droghe pesanti, niente farmaci)",
+    IGUI_FarmaceuticoTrait = "Farmacista",
+    IGUI_FarmaceuticoDescription = "Sei andato all'università per studiare medicina\nAlla fine sei diventato Farmacista e conosci tutte le ricette di droghe farmaceutiche.",
+    
+    IGUI_GoodTrip = "Che bel viaggio ho appena fatto, è stato curativo e tutto.",
+    IGUI_BadTrip = "Dannazione, non è stato uno dei migliori viaggi che ho fatto.",
+    IGUI_HorribleTrip = "CHE CA**O È STATO UN VIAGGIO ORRIBILE! DEVO CALMARMI",
+    
+    IGUI_GoodTripHardcore = "Dannazione, è stata un'esperienza bellissima, ne avevo davvero bisogno.",
+    IGUI_BadTripHardcore = "Dannazione, ho iniziato a pensare a cose brutte e ho avuto un brutto viaggio.",
+    IGUI_HorribleTripHardcore = "MI STAI DICENDO CHE STO PER MORIRE?! MI SENTIRÒ COSI PER SEMPRE?! NON C'È SCAMPO!",
+    
+    IGUI_NeedMoreMushrooms = "Mi sento un po' strano, forse se mangio ancora qualche fungo farò un viaggio.",
+    IGUI_NeedMoreMushroomsHardcore = "Sta cominciando a colpire, se ne mangio ancora qualche altro farò un viaggio.",
+    
+    IGUI_ConsumeDrug_Message = "Ho consumato %1. Penso di aver preso circa %2 finora.",
+}

@@ -1,0 +1,41 @@
+IGUI_PTBR = {
+    IGUI_CraftCategory_Drugs = "Drogas",
+    IGUI_ItemCat_Drugs = "Drogas",
+    IGUI_ItemCat_Item = "Item",
+    
+    IGUI_Intoxicacion_Levellow = "Sintomas leves de overdose detectados; procure Loperamida.",
+    IGUI_Intoxicacion_Levelmid = "Sintomas moderados de overdose presentes; localize Bismuto Subsalicilato.",
+    IGUI_Intoxicacion_Levelhigh = "Sintomas graves de overdose detectados; Narcan necessário imediatamente.",
+    
+    IGUI_2days_Abstinence = "Maldição, sinto que preciso de algumas drogas...",
+    IGUI_72_Abstinence = "72 horas, isso deve ser o pico da abstinência...",
+    IGUI_73_Abstinence = "EU PRECISO DELAS!",
+    IGUI_96_Abstinence = "Eu mataria por alguns cogumelos.",
+    IGUI_115_Abstinence = "115 horas sem drogas... Eu realmente estou orgulhoso.",
+    IGUI_168_Abstinence = "1 semana sem elas, tenho que parar de pensar nisso.",
+    IGUI_300_Abstinence = "Eu gosto de estar sóbrio...",
+    IGUI_400_Abstinence = "Eu gosto muito de estar sóbrio",
+    IGUI_Beat_DrugAddiction = "21 dias seguidos? Uau, acho que não preciso mais delas.",
+    IGUI_Start_ofAddiction = "Acho que meu corpo está pedindo drogas... Eu me tornei um viciado?",
+    IGUI_Need_Drugs = "Eu preciso de algumas drogas.",
+    
+    IGUI_DrogadictoTrait = "Viciado",
+    IGUI_DrogadictoDescription = "Você é um viciado. Seu corpo pedirá drogas e você ficará entediado.\nVocê sofrerá efeitos de abstinência se não consumir por 12 horas.\nEventualmente, você pode superar o vício se não consumir por 21 dias.\n(Este traço será adicionado automaticamente se você consumir muitas drogas no jogo)",
+    IGUI_WalterWhiteTrait = "Senhor das Drogas",
+    IGUI_WalterWhiteDescription = "Você sempre foi mais inteligente que os outros. Você era o fabricante e o vendedor das drogas!\nVocê começa com as receitas aprendidas de como fazer drogas (Somente drogas pesadas, não medicamentos farmacêuticos)",
+    IGUI_FarmaceuticoTrait = "Farmacêutico",
+    IGUI_FarmaceuticoDescription = "Você foi para a universidade estudar medicina.\nAcabou se tornando farmacêutico e conhece todas as receitas de drogas farmacêuticas.",
+    
+    IGUI_GoodTrip = "Que viagem boa acabei de ter, foi até curativo.",
+    IGUI_BadTrip = "Droga, não foi uma das melhores viagens que já tive.",
+    IGUI_HorribleTrip = "ISSO FOI UMA VIAGEM HORRÍVEL! EU PRECISO ME ACALMAR",
+    
+    IGUI_GoodTripHardcore = "Droga, foi uma experiência linda, realmente precisava disso.",
+    IGUI_BadTripHardcore = "Droga, comecei a pensar em coisas ruins e tive uma viagem ruim.",
+    IGUI_HorribleTripHardcore = "EU VOU MORRER?! EU VOU ME SENTIR ASSIM PARA SEMPRE?! NÃO HÁ ESCAPE!",
+    
+    IGUI_NeedMoreMushrooms = "Estou me sentindo meio estranho, talvez se eu comer mais alguns tenha uma viagem.",
+    IGUI_NeedMoreMushroomsHardcore = "Isso já está começando a pegar, se eu ingerir mais alguns terei uma viagem.",
+    
+    IGUI_ConsumeDrug_Message = "Eu consumi %1. Acho que já tomei %2 até agora.",
+}

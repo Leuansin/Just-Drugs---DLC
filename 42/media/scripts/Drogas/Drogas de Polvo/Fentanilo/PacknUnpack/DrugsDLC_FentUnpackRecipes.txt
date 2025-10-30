@@ -1,0 +1,144 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Fentanyl
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5FentanylPack],
+ 			item 5 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Fentanyl,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Fentanyl
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10FentanylPack],
+ 			item 10 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Fentanyl,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Fentanyl
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20FentanylPack],
+ 			item 20 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Fentanyl,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Fentanyl
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100FentanylPack],
+ 			item 100 [DrugsDLC.BolsaDeDroga],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Fentanyl,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Fentanyl_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10FentanylPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5FentanylPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Fentanyl_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20FentanylPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10FentanylPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Fentanyl_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100FentanylPack],
+			item 5 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20FentanylPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Fentanyl_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000FentanylPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100FentanylPack,
+ 		}
+ 	}
+
+}

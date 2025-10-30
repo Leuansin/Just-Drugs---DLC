@@ -1,0 +1,60 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+
+item Ayahuasca
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Ayahuasca,
+        DisplayCategory     = Drugs,
+        Icon                = HerbSage,
+        WorldStaticModel 	= HerbSage_Ground,
+		Tooltip 		    = Tooltip_Ayahuasca,
+}
+
+item AyahuascaInfusion
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Ayahuasca Infusion,
+        DisplayCategory     = Drugs,
+        Icon                = Teabag,
+        WorldStaticModel 	= TeaBag,
+		Tooltip 		    = Tooltip_Ayahuasca,
+}
+
+item AyahuascaTea
+	{
+		DisplayName = Ayahuasca Infusion Teacup,
+		DisplayCategory = Drugs,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Teacup,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Teacup,
+		MinutesToCook = 10,
+		MinutesToBurn = 50,
+		ThirstChange = -20,
+		FatigueChange = -220,
+		StressChange = -130,
+		PainReduction = 80,
+		EnduranceChange = -30,
+		BoredomChange = -850,
+		Poison	= true,
+		PoisonPower	= 3,
+		UnhappyChange = -120,
+		OnEat = OnEat_TrippingHardcore,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromMug,
+		StaticModel = Mug,
+		Tags = AlcoholicBeverage;LowAlcohol;HerbalTea;CoffeeMaker,
+		WorldStaticModel = Teacup_Ground,
+	}
+
+}

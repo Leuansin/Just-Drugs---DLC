@@ -1,0 +1,242 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+	craftRecipe Pack5Clonazepam
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.Clonazepam],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.5ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack10Clonazepam_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.5ClonazepamPack],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack10Clonazepam_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.Clonazepam],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack20Clonazepam_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 20 [DrugsDLC.Clonazepam],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20ClonazepamPack,
+		}
+	}
+	
+	craftRecipe Pack20Clonazepam_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.10ClonazepamPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack20Clonazepam_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 4 [DrugsDLC.5ClonazepamPack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack100Clonazepam_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 100,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.Clonazepam],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack100Clonazepam_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.20ClonazepamPack],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack100Clonazepam_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.10ClonazepamPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack1kgClonazepam_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 1000,
+		category = Drugs,
+		inputs
+		{
+			item 1000 [DrugsDLC.Clonazepam],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack1kgClonazepam_From100Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 50,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.100ClonazepamPack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack1kgClonazepam_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 80,
+		category = Drugs,
+		inputs
+		{
+			item 50 [DrugsDLC.20ClonazepamPack],
+			item 15 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000ClonazepamPack,
+		}
+	}
+
+	craftRecipe Pack1kgClonazepam_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 120,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.10ClonazepamPack],
+			item 20 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000ClonazepamPack,
+		}
+	}
+
+}

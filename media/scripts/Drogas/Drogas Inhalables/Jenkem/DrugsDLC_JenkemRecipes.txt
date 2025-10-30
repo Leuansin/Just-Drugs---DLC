@@ -1,0 +1,20 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Ferment Feces on Pot
+{
+	DrugsDLC.Potocaca=3,
+	Pot=1,
+	Result:DrugsDLC.BowlofJenkem=1,
+	Time: 60.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+}

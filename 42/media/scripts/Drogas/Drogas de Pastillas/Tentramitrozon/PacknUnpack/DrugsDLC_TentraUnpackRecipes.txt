@@ -1,0 +1,140 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Tentramitrozon
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5TentramitrozonPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Tentramitrozon,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Tentramitrozon
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10TentramitrozonPack],
+ 
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Tentramitrozon,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Tentramitrozon
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20TentramitrozonPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Tentramitrozon,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Tentramitrozon
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100TentramitrozonPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Tentramitrozon,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Tentramitrozon_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10TentramitrozonPack],
+
+ 	}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5TentramitrozonPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Tentramitrozon_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20TentramitrozonPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10TentramitrozonPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Tentramitrozon_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100TentramitrozonPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20TentramitrozonPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Tentramitrozon_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000TentramitrozonPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100TentramitrozonPack,
+ 		}
+ 	}
+
+}

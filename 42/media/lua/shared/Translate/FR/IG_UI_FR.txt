@@ -1,0 +1,42 @@
+IGUI_FR = {
+
+    IGUI_CraftCategory_Drugs = "Drogues",
+    IGUI_ItemCat_Drugs = "Drogues",
+    IGUI_ItemCat_Item = "Objet",
+    
+    IGUI_Intoxicacion_Levellow = "Symptômes légers de surdose détectés ; cherchez de la Loperamide.",
+    IGUI_Intoxicacion_Levelmid = "Symptômes modérés de surdose présents ; localisez du Bismuth Subsalicylate.",
+    IGUI_Intoxicacion_Levelhigh = "Symptômes graves de surdose détectés ; un Narcan est immédiatement nécessaire.",
+
+    IGUI_2days_Abstinence = "Merde ! J'ai l'impression que j'ai besoin de drogues...",
+    IGUI_72_Abstinence = "72 heures, cela devrait être le pic de l'abstinence...",
+    IGUI_73_Abstinence = "JE LES AI BESOIN !",
+    IGUI_96_Abstinence = "Je tuerais pour des champignons.",
+    IGUI_115_Abstinence= "115 heures sans drogues... Je suis vraiment fier.",
+    IGUI_168_Abstinence = "Une semaine sans elles, je dois arrêter de penser à ça.",
+    IGUI_300_Abstinence = "J'aime un peu être sobre...",
+    IGUI_400_Abstinence = "J'aime beaucoup être sobre",
+    IGUI_Beat_DrugAddiction = "21 jours consécutifs ? Eh bien, je suppose que je n'en ai plus besoin.",
+    IGUI_Start_ofAddiction = "Je crois que mon corps me demande des drogues... Suis-je devenu accro ?",
+    IGUI_Need_Drugs = "J'ai besoin de drogues.",
+
+    IGUI_DrogadictoTrait = "Accro aux drogues",
+    IGUI_DrogadictoDescription = "Vous êtes un accro aux drogues. Votre corps vous demandera des drogues et vous vous ennuierez.\nVous allez éprouver des effets de sevrage si vous ne consommez pas pendant 12 heures.\nVous pourrez éventuellement surmonter votre dépendance si vous ne consommez pas pendant 21 jours.\n(Ce trait sera ajouté automatiquement si vous consommez beaucoup de drogues dans le jeu)",
+    IGUI_WalterWhiteTrait = "Seigneur de la drogue",
+    IGUI_WalterWhiteDescription = "Vous avez toujours été plus intelligent que les autres. C'était vous qui fabriquiez et vendiez les drogues !\nVous commencez avec les Recettes Apprises de Comment Cuisiner des Drogues (Seulement des drogues dures, pas des médicaments pharmaceutiques)",
+    IGUI_FarmaceuticoTrait = "Pharmacien",
+    IGUI_FarmaceuticoDescription = "Vous êtes allé à l'université pour étudier la médecine.\nVous êtes devenu pharmacien et connaissez toutes les recettes de drogues pharmaceutiques.",
+
+    IGUI_GoodTrip = "Quel bon trip je viens de vivre, c'était thérapeutique et tout.",
+    IGUI_BadTrip = "Merde, ce n'était pas l'un des meilleurs trips que j'ai eus.",
+    IGUI_HorribleTrip = "C'ÉTAIT UN TRIP HORRIBLE ! JE DOIS ME CALMER",
+
+    IGUI_GoodTripHardcore = "Merde, c'était une expérience magnifique, je en avais vraiment besoin.",
+    IGUI_BadTripHardcore = "Merde, j'ai commencé à penser à des choses mauvaises et j'ai eu un mauvais trip.",
+    IGUI_HorribleTripHardcore = "JE VAIS MOURIR ? JE VIVRAI ÇA POUR TOUJOURS ? IL N'Y A PAS D'ÉCHAPATOIRE !",
+
+    IGUI_NeedMoreMushrooms = "Je me sens un peu bizarre, peut-être que si je mange encore quelques champignons, j'aurai un trip.",
+    IGUI_NeedMoreMushroomsHardcore = "Cela commence à frapper, si je prends encore quelques champignons, j'aurai un trip.",
+    
+    IGUI_ConsumeDrug_Message = "J'ai consommé %1. Je pense que j'ai pris environ %2 jusqu'à présent.",
+}

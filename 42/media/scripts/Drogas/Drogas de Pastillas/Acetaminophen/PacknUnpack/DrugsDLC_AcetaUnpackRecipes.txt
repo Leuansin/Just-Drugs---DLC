@@ -1,0 +1,136 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Acetaminophen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Acetaminophen,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Acetaminophen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Acetaminophen,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Acetaminophen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Acetaminophen,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Acetaminophen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Acetaminophen,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Acetaminophen_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5AcetaminophenPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Acetaminophen_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10AcetaminophenPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Acetaminophen_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20AcetaminophenPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Acetaminophen_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000AcetaminophenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100AcetaminophenPack,
+ 		}
+ 	}
+
+}

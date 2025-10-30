@@ -1,0 +1,26 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe FermentFecesOnPot
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 60,
+		category = Drugs,
+		inputs
+		{
+			item 3 [DrugsDLC.Potocaca],
+			item 1 [Base.Pot],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.BowlofJenkem,
+		}
+	}
+
+}

@@ -1,0 +1,59 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+
+item Peyote
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Peyote,
+        DisplayCategory     = Drugs,
+        Icon                = HerbSage,
+        WorldStaticModel 	= HerbSage_Ground,
+		Tooltip 		    = Tooltip_Peyote,
+}
+
+item PeyoteInfusion
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Peyote Infusion,
+        DisplayCategory     = Drugs,
+        Icon                = Teabag,
+        WorldStaticModel 	= TeaBag,
+		Tooltip 		    = Tooltip_Peyote,
+}
+
+item PeyoteTea
+	{
+		DisplayName = Peyote Infusion Teacup,
+		DisplayCategory = Drugs,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Teacup,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Teacup,
+		MinutesToCook = 10,
+		MinutesToBurn = 50,
+		ThirstChange = -20,
+		FatigueChange = -30,
+		StressChange = -80,
+		PainReduction = 10,
+		BoredomChange = -150,
+		Poison	= true,
+		PoisonPower	= 3,
+		UnhappyChange = -80,
+		OnEat = OnEat_TrippingHardcore,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromMug,
+		StaticModel = Mug,
+		Tags = AlcoholicBeverage;LowAlcohol;HerbalTea;CoffeeMaker,
+		WorldStaticModel = Teacup_Ground,
+	}
+
+}

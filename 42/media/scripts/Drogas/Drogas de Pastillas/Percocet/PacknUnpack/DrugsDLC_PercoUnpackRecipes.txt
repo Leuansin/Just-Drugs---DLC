@@ -1,0 +1,144 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Percocet
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Percocet,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Percocet
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Percocet,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Percocet
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Percocet,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Percocet
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Percocet,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Percocet_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5PercocetPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Percocet_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10PercocetPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Percocet_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20PercocetPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Percocet_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000PercocetPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100PercocetPack,
+ 		}
+ 	}
+
+}

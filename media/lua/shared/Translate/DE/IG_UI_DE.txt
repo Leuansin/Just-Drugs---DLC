@@ -1,0 +1,42 @@
+IGUI_DE = {
+
+    IGUI_CraftCategory_Drugs = "Drogen",
+    IGUI_ItemCat_Drugs = "Drogen",
+    IGUI_ItemCat_Item = "Gegenstand",
+    
+    IGUI_Intoxicacion_Levellow = "Leichte Überdosierungssymptome erkannt; suche Loperamid.",
+    IGUI_Intoxicacion_Levelmid = "Moderate Überdosierungssymptome festgestellt; finde Bismut-Subsalicylat.",
+    IGUI_Intoxicacion_Levelhigh = "Schwere Überdosierungssymptome festgestellt; sofort Narcan erforderlich.",
+
+    IGUI_2days_Abstinence = "Verdammt! Ich glaube, ich brauche Drogen...",
+    IGUI_72_Abstinence = "72 Stunden, das müsste der Höhepunkt des Entzugs sein...",
+    IGUI_73_Abstinence = "ICH BRAUCHE SIE!",
+    IGUI_96_Abstinence = "Ich würde für ein paar Pilze töten.",
+    IGUI_115_Abstinence = "115 Stunden ohne Drogen... Ich bin echt stolz.",
+    IGUI_168_Abstinence = "1 Woche ohne Drogen, ich muss aufhören, daran zu denken.",
+    IGUI_300_Abstinence = "Irgendwie mag ich es, clean zu sein...",
+    IGUI_400_Abstinence = "Ich mag es wirklich, clean zu sein.",
+    IGUI_Beat_DrugAddiction = "21 Tage ohne Drogen zu nehmen? Ich glaube ich habs endlich geschafft clean zu werden.",
+    IGUI_Start_ofAddiction = "Ich glaube, mein Körper verlangt nach Drogen... Bin ich süchtig geworden?",
+    IGUI_Need_Drugs = "Ich brauche Drogen.",
+
+    IGUI_DrogadictoTrait = "Drogensüchtig",
+    IGUI_DrogadictoDescription = "Du bist drogensüchtig. Dein Körper wird nach Drogen verlangen und dir wird schneller langweilig.\nDu wirst Entzugserscheinungen bekommen, wenn du 12 Stunden lang nichts konsumierst.\nDu kannst deine Sucht überwinden, wenn du 21 Tage (Vanilla Settings) nichts konsumierst.\n(Dieses Merkmal wird automatisch hinzugefügt, wenn du im Spiel viele Drogen konsumierst.)",
+    IGUI_WalterWhiteTrait = "Drogenboss",
+    IGUI_WalterWhiteDescription = "Du warst immer schlauer als der Rest. Du warst derjenige, der die Drogen hergestellt und verkauft hat!\nBeginne mit dem Wissen über die Rezepte, wie man Drogen kocht (nur harte Drogen, keine pharmazeutischen Drogen).",
+    IGUI_FarmaceuticoTrait = "Pharmazeut",
+    IGUI_FarmaceuticoDescription = "Du hast Medizin an der Uni studiert.\nAm Ende wurdest du Pharmazeut und kennst alle Rezepte für pharmazeutische Drogen.",
+
+    IGUI_GoodTrip = "Wow, was für ein geiler Trip - hat echt gut getan.",
+    IGUI_BadTrip = "Boah verdammt, das war echt 'n mieser Trip.",
+    IGUI_HorribleTrip = "OH MANN, WAS ZUR HÖLLE WAR DAS? 'NE RICHTIGE HORRORFAHRT! ICH MUSS UNBEDINGT RUNTERKOMMEN!",
+
+    IGUI_GoodTripHardcore = "Verdammt, das war eine wunderschöne Erfahrung, genau das habe ich gebraucht.",
+    IGUI_BadTripHardcore = "Verdammt, meine Gedanken sind total abgegangen und der Trip war richtig mies.",
+    IGUI_HorribleTripHardcore = "WERDE ICH JETZT STERBEN? ICH FÜHLE MICH, ALS WÜRDE DAS NIE AUFHÖREN! ICH BIN VOLL IN DIESEM SCHEISS TRIP GEFANGEN!",
+
+    IGUI_NeedMoreMushrooms = "Ich fühl mich irgendwie komisch, vielleicht kickt der Trip richtig, wenn ich noch mehr Pilze esse.",
+    IGUI_NeedMoreMushroomsHardcore = "Jetzt merk ich was, wenn ich mir noch mehr reinziehe, wird der Trip richtig heftig!",
+    
+    IGUI_ConsumeDrug_Message = "Ich hab' gerade %1 genommen. Ich glaub, ich hab' bisher insgesamt so etwa %2 konsumiert.",
+}

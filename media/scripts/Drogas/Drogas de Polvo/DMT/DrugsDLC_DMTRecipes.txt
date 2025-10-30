@@ -1,0 +1,47 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Add DMT To Pipe
+	{
+	   DrugsDLC.DMT,
+	   DrugsDLC.DrugPipe/Aluminum,
+	   Result: DrugsDLC.DMTPipe,
+	   Time: 30.0,
+	   Sound:DryDrugx,
+	   Category: Drugs,
+	}
+
+recipe Make DMT Compound
+	{
+		DrugsDLC.PhenyCompound=5,
+		DrugsDLC.IodoricAcidBottle=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.NDimethyltryptamine=10,
+		Time: 14.0,
+		Sound:BoilingDrugWater,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Make DMT
+	{
+		DrugsDLC.NDimethyltryptamine=10,
+		DrugsDLC.IodoricAcidBottle=1,
+		DrugsDLC.BolsaDeDroga=10,
+
+		Result:DrugsDLC.DMT=10,
+		Time: 20.0,
+		Sound:DryDrugx,
+		Category: Drugs,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+}

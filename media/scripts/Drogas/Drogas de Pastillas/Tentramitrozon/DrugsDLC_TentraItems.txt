@@ -1,0 +1,42 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item TentramitrozonBox
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Box of Tentramitrozon 30cm,
+        DisplayCategory     = Drugs,
+        Icon                = TentramitrozonBox,
+        WorldStaticModel 	= Tentramitrozontres,
+		Tooltip 		    = Tooltip_BottleDrugs,
+}
+
+item Tentramitrozon
+    {
+        DisplayName                 = Tentramitrozon,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		PainReduction 				= 30,
+		StressChange				= -6,
+		ReduceFoodSickness 			= 9,
+		FatigueChange 				= -69,
+		ReduceInfectionPower     	= 12, 
+		Poison						= true,
+		PoisonPower					= 0.1,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Take Pill,
+		CustomEatSound              = shakepills,
+        WorldStaticModel 			= PastillitaWSM,
+		Tooltip 					= Tooltip_Tentramitrozon,
+    }
+
+}

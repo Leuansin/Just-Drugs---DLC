@@ -1,0 +1,229 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+	craftRecipe Pack5Morphine
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.MorphineBottle],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.5MorphinePack,
+		}
+	}
+
+	craftRecipe Pack10Morphine_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.5MorphinePack],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10MorphinePack,
+		}
+	}
+
+	craftRecipe Pack10Morphine_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.MorphineBottle],
+			item 1 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.10MorphinePack,
+		}
+	}
+
+	craftRecipe Pack20Morphine_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 20 [DrugsDLC.MorphineBottle],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20MorphinePack,
+		}
+	}
+	
+	craftRecipe Pack20Morphine_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 2 [DrugsDLC.10MorphinePack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20MorphinePack,
+		}
+	}
+
+	craftRecipe Pack20Morphine_From5Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 4 [DrugsDLC.5MorphinePack],
+			item 2 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.20MorphinePack,
+		}
+	}
+
+	craftRecipe Pack100Morphine_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 100,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.MorphineBottle],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100MorphinePack,
+		}
+	}
+
+	craftRecipe Pack100Morphine_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 5 [DrugsDLC.20MorphinePack],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100MorphinePack,
+		}
+	}
+
+	craftRecipe Pack100Morphine_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.10MorphinePack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 2 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.100MorphinePack,
+		}
+	}
+
+	craftRecipe Pack1kgMorphine_Loose
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 1000,
+		category = Drugs,
+		inputs
+		{
+			item 1000 [DrugsDLC.MorphineBottle],
+			item 4 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000MorphinePack,
+		}
+	}
+
+	craftRecipe Pack1kgMorphine_From100Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 50,
+		category = Drugs,
+		inputs
+		{
+			item 10 [DrugsDLC.100MorphinePack],
+			item 6 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000MorphinePack,
+		}
+	}
+
+	craftRecipe Pack1kgMorphine_From20Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 80,
+		category = Drugs,
+		inputs
+		{
+			item 50 [DrugsDLC.20MorphinePack],
+			item 15 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000MorphinePack,
+		}
+	}
+
+	craftRecipe Pack1kgMorphine_From10Packs
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		time = 120,
+		category = Drugs,
+		inputs
+		{
+			item 100 [DrugsDLC.10MorphinePack],
+			item 20 [Base.Scotchtape;Base.Wire;Base.Twine;Base.String;Base.SheetRope;Base.Rope;Base.DuctTape],
+			item 1 [Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.1000MorphinePack,
+		}
+	}
+
+}

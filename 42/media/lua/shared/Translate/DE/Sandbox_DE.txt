@@ -1,0 +1,31 @@
+Sandbox_DE = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | Von Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Spawn-Rate von Halluzinogenen Drogen",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Spawn-Rate von Inhalierbaren Drogen",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Spawn-Rate von Pulverisierten-Drogen",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Spawn-Rate von pflanzlichen Drogen",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Spawn-Rate von pharmazeutischen Drogen",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Spawn-Rate von Entgiftungsmedikamenten",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Spawn-Rate von Drogen in Zombies",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Spawn-Rate von Chemikalienflaschen",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = "Spawn-Rate von 'Chemie 101' Büchern",
+    
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Langweiligkeitszunahme pro Stunde",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Tage, um die Sucht vom Drogensüchtig-Merkmal zu überwinden",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Pilze, Acid, MDMA, Ecstasy, usw...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Deodorants, Jenkem und Neopren",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Koks, Heroin, Fentanyl, Meth, usw...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Teufelsatem, usw...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofen, Vicodin, Tramadol, Xanax, usw...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamid, Bismuth. Drogen, die bei der Bekämpfung von Überdosierungen helfen.",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Modifiziert die Spawn-Rate von Gegenständen in einem Zombie-Körper.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Flaschen mit Ammoniak, Pheny, Ethanol, Kalium, usw...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Bücher, die Rezepte lehren, um eine bestimmte Droge herzustellen.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Leere Drogentüten. (Nützlich zum Craften)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Langeweile erhöht sich nur wenn der Drogensüchtig-trait genommen wurde. Dies ist zum Einstellen wie schnell sich die Langeweile erhöht.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Denke daran, dass du keine Drogen im Inventar haben darfst, damit dies zählt.",
+
+}

@@ -1,0 +1,59 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+
+item Escopolamina
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Scopolamine,
+        DisplayCategory     = Drugs,
+        Icon                = HerbSage,
+        WorldStaticModel 	= HerbSage_Ground,
+		Tooltip 		    = Tooltip_Escopolamina,
+}
+
+item EscopolaminaInfusion
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Scopolamine Infusion,
+        DisplayCategory     = Drugs,
+        Icon                = Teabag,
+        WorldStaticModel 	= TeaBag,
+		Tooltip 		    = Tooltip_Escopolamina,
+}
+
+item EscopolaminaTea
+	{
+		DisplayName = Scopolamine Infusion Teacup,
+		DisplayCategory = Drugs,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Teacup,
+		GoodHot = true,
+		IsCookable = true,
+		ReplaceOnUse = Teacup,
+		MinutesToCook = 10,
+		MinutesToBurn = 50,
+		ThirstChange = -20,
+		FatigueChange = 70,
+		StressChange = 40,
+		PainReduction = 100,
+		EnduranceChange = -20,
+		BoredomChange = -250,
+		Poison	= true,
+		PoisonPower	= 3,
+		UnhappyChange = -120,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromMug,
+		StaticModel = Mug,
+		Tags = AlcoholicBeverage;LowAlcohol;HerbalTea;CoffeeMaker,
+		WorldStaticModel = Teacup_Ground,
+	}
+
+}

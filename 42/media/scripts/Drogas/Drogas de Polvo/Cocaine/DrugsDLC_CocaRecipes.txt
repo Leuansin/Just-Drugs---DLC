@@ -1,0 +1,82 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe MakeRawCocaineCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 1 [Base.Pills],
+			item 1 [DrugsDLC.AmmoniaBottle],
+			item 1 [DrugsDLC.EphedrineBottle],
+			item 1 [DrugsDLC.PhenyBottle],
+			item 1 [DrugsDLC.IodoricAcidBottle],
+			item 1 [DrugsDLC.PotassiumBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 30 DrugsDLC.CocaCompound,
+		}
+	}
+
+	craftRecipe RefineCocaineCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 8,
+		category = Drugs,
+		inputs
+		{
+			item 7 [DrugsDLC.CocaCompound],
+			item 2 [DrugsDLC.PhenyCompound],
+			item 3 [DrugsDLC.MethCompound],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 8 DrugsDLC.RefinedCoca,
+		}
+	}
+
+	craftRecipe DryRefinedCocaine
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 6 [DrugsDLC.RefinedCoca],
+			item 10 [DrugsDLC.BolsaDeDroga],
+		}
+		outputs
+		{
+			item 10 DrugsDLC.Cocaine,
+		}
+	}
+
+	craftRecipe OpenCocaineBrick
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 600,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Blockcocaine],
+		}
+		outputs
+		{
+			item 20 DrugsDLC.Cocaine,
+		}
+	}
+}

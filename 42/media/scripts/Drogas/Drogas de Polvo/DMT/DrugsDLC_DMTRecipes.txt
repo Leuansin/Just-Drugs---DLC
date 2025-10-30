@@ -1,0 +1,64 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe AddDMTToPipe
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.DMT],
+			item 1 [DrugsDLC.DrugPipe;Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.DMTPipe,
+		}
+	}
+
+	craftRecipe MakeDMTCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 14,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 5 [DrugsDLC.PhenyCompound],
+			item 1 [DrugsDLC.IodoricAcidBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 10 DrugsDLC.NDimethyltryptamine,
+		}
+	}
+
+	craftRecipe MakeDMT
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 10 [DrugsDLC.NDimethyltryptamine],
+			item 1 [DrugsDLC.IodoricAcidBottle],
+			item 10 [DrugsDLC.BolsaDeDroga],
+		}
+		outputs
+		{
+			item 10 DrugsDLC.DMT,
+		}
+	}
+}

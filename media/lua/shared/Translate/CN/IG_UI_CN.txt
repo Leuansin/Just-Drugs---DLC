@@ -1,0 +1,42 @@
+IGUI_CN = {
+
+    IGUI_CraftCategory_Drugs = "毒品",
+    IGUI_ItemCat_Drugs = "毒品",
+    IGUI_ItemCat_Item = "物品",
+    
+    IGUI_Intoxicacion_Levellow = "检测到轻微的过量症状；寻找洛哌丁胺。",
+    IGUI_Intoxicacion_Levelmid = "检测到中度过量症状；寻找铋次水杨酸盐。",
+    IGUI_Intoxicacion_Levelhigh = "检测到严重过量症状；立即需要纳洛酮。",
+
+    IGUI_2days_Abstinence = "该死！我想我需要毒品...",
+    IGUI_72_Abstinence = "72小时，这应该是戒断的高峰...",
+    IGUI_73_Abstinence = "我需要它们！",
+    IGUI_96_Abstinence = "我为了几片蘑菇甚至愿意杀人。",
+    IGUI_115_Abstinence = "115小时没碰毒品……我真的很自豪。",
+    IGUI_168_Abstinence = "1周没碰毒品了，我必须停止想这些东西。",
+    IGUI_300_Abstinence = "有点喜欢这种清醒的感觉...",
+    IGUI_400_Abstinence = "我真的很喜欢清醒的状态。",
+    IGUI_Beat_DrugAddiction = "21天没有碰毒品？我想我终于戒掉了。",
+    IGUI_Start_ofAddiction = "我想我的身体开始渴求毒品了……我上瘾了吗？",
+    IGUI_Need_Drugs = "我需要毒品。",
+
+    IGUI_DrogadictoTrait = "毒品成瘾",
+    IGUI_DrogadictoDescription = "你对毒品上瘾了。你的身体会渴望毒品，你会更容易感到无聊。\n如果12小时内未摄入毒品，你将经历戒断症状。\n如果你21天（默认设置）内未使用毒品，你可以战胜成瘾。\n（当你在游戏中大量使用毒品时，该特性会自动添加。）",
+    IGUI_WalterWhiteTrait = "毒品大亨",
+    IGUI_WalterWhiteDescription = "你总是比其他人聪明。你是那个制造和销售毒品的人！\n从学习如何制作毒品的知识开始（仅限硬毒品，不包括药用毒品）。",
+    IGUI_FarmaceuticoTrait = "药剂师",
+    IGUI_FarmaceuticoDescription = "你在大学学习了医学。\n最终，你成为了一名药剂师，掌握了所有药用毒品的制作配方。",
+
+    IGUI_GoodTrip = "哇，这趟旅程太棒了——感觉真好。",
+    IGUI_BadTrip = "天啊，这真是糟糕的一次旅程。",
+    IGUI_HorribleTrip = "天啊，这是什么鬼？简直是场噩梦！我需要赶紧冷静下来！",
+
+    IGUI_GoodTripHardcore = "该死，这是一次美妙的体验，正是我需要的。",
+    IGUI_BadTripHardcore = "该死，我的思绪完全失控了，这趟旅程真是糟糕透顶。",
+    IGUI_HorribleTripHardcore = "我会死吗？感觉永远停不下来！我被困在这该死的旅程里了！",
+
+    IGUI_NeedMoreMushrooms = "我感觉有点奇怪，也许再吃点蘑菇旅程会更深入。",
+    IGUI_NeedMoreMushroomsHardcore = "现在我开始感觉到了，如果再来点，这趟旅程会非常刺激！",
+    
+    IGUI_ConsumeDrug_Message = "我刚刚使用了 %1。我想我总共使用了大约 %2。",
+}

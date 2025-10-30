@@ -1,0 +1,47 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe MakeFentanylCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [Base.Pills],
+			item 1 [DrugsDLC.EthanolBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 12 DrugsDLC.FentanylCompound,
+		}
+	}
+
+	craftRecipe DryAndPackFentanyl
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 12 [DrugsDLC.FentanylCompound],
+			item 5 [DrugsDLC.BolsaDeDroga],
+		}
+		outputs
+		{
+			item 5 DrugsDLC.Fentanyl,
+		}
+	}
+
+}

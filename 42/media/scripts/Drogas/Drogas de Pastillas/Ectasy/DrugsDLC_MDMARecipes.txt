@@ -1,0 +1,50 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe ExtractEctasyCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.PhenyCompound],
+			item 1 [Base.PillsAntiDep],
+			item 1 [Base.PillsSleepingTablets],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 6 DrugsDLC.EctasyCompound,
+		}
+	}
+
+	craftRecipe MakeEctasy
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 10 [DrugsDLC.EctasyCompound],
+			item 1 [DrugsDLC.AmmoniaBottle],
+			item 1 [DrugsDLC.PhenyBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 6 DrugsDLC.MDMA,
+		}
+	}
+}

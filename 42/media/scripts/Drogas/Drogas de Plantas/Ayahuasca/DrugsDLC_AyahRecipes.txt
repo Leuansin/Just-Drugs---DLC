@@ -1,0 +1,43 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe AddAyahuascaToTea
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Ayahuasca],
+			item 1 [Base.Teacup],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.AyahuascaInfusion,
+		}
+	}
+
+	craftRecipe MakeAyahuascaInfusion
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.AyahuascaInfusion],
+			item 1 [Base.Teacup],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.AyahuascaTea,
+		}
+	}
+
+}

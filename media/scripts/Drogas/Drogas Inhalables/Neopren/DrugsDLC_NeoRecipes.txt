@@ -1,0 +1,20 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Put Bag on Top
+{
+	DrugsDLC.Neoprene=1,
+	GroceryBag1/GroceryBag2/GroceryBag3/GroceryBag4/GroceryBag5/Plasticbag/PaperBag/Paperbag_Jays/Paperbag_Spiffos/Lunchbag/Tote=1,
+	Result:DrugsDLC.NeopreneBag=1,
+	Time: 60.0,
+	Category: Drugs,
+	Sound: DryDrugx,
+	AnimNode:Pour,
+}
+
+}

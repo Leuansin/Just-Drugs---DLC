@@ -1,0 +1,47 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe MakeAmphetamineSalts
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 60,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 3 [DrugsDLC.PhenyCompound],
+			item 1 [DrugsDLC.EthanolBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 7 DrugsDLC.AmphSales,
+		}
+	}
+
+	craftRecipe DryAmphetamineSales
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 6 [DrugsDLC.AmphSales],
+			item 6 [DrugsDLC.BolsaDeDroga],
+		}
+		outputs
+		{
+			item 4 DrugsDLC.Amphetamines,
+		}
+	}
+
+}

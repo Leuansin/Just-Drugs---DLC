@@ -1,0 +1,26 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe AddKhatToTea
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Khat],
+			item 1 [Base.HotDrinkTea],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.KhatTea,
+		}
+	}
+
+}

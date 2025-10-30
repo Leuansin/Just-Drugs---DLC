@@ -1,0 +1,9 @@
+ContextMenu_CN = {
+    ContextMenu_Inhale = "吸入",
+    ContextMenu_Inject = "注射",
+    ContextMenu_Swallow = "吞咽",
+    ContextMenu_Eat_Shrooms = "吃蘑菇",
+    ContextMenu_Take_Pill = "服用药片",
+    ContextMenu_Drink_Lean = "喝药水",
+    ContextMenu_Smoke_Meth = "吸食冰毒",
+}

@@ -1,0 +1,30 @@
+Sandbox_CN = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | 作者: Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "致幻药物的生成率",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "吸入类药物的生成率",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "粉末药物的生成率",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "草本药物的生成率",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "药片的生成率",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "解毒药物的生成率",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "僵尸身上药物的生成率",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "化学品瓶的生成率",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = "'化学 101' 书籍的生成率",
+    
+    Sandbox_JustDrugsDLC_BoredomIncrement = "每小时无聊度增加",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "克服毒瘾特性所需的天数",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "蘑菇、LSD、MDMA、摇头丸等...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "除臭剂、Jenkem 和氯丁橡胶",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "可卡因、海洛因、芬太尼、冰毒等...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "阿亚瓦斯卡、卡特、仙人掌毒素、恶魔之息等...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "布洛芬、维柯丁、曲马多、阿普唑仑等...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan、洛哌丁胺、铋次水杨酸盐等，帮助对抗过量的药物。",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "修改僵尸尸体中物品的生成率。",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "氨水、苯乙胺、乙醇、氢氧化钾等化学品瓶。",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "教授某种药物制作配方的书籍。",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "空的毒品袋。（用于制作物品）",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "无聊度仅在选择毒瘾特性时增加。此设置调整无聊度增加的速度。",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "请记住，必须在物品栏中没有药物的情况下才能计入。",
+}

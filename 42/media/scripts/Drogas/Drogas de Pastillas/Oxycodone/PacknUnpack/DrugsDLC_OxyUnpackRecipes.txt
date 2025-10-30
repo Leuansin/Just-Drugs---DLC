@@ -1,0 +1,141 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Oxycodone
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5OxycodonePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Oxycodone,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Oxycodone
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10OxycodonePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Oxycodone,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Oxycodone
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20OxycodonePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Oxycodone,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Oxycodone
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100OxycodonePack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Oxycodone,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Oxycodone_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10OxycodonePack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5OxycodonePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Oxycodone_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20OxycodonePack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10OxycodonePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Oxycodone_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100OxycodonePack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20OxycodonePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Oxycodone_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000OxycodonePack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100OxycodonePack,
+ 		}
+ 	}
+
+}

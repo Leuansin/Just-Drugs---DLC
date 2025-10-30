@@ -1,0 +1,67 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe MakeBenzodiazepineCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [Base.PillsAntiDep],
+			item 1 [Base.PillsSleepingTablets],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 14 DrugsDLC.BenzoCompound,
+		}
+	}
+
+	craftRecipe ProduceXanaxCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 14,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 10 [DrugsDLC.BenzoCompound],
+			item 1 [DrugsDLC.AmmoniaBottle],
+			item 1 [DrugsDLC.MorphineCompound],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 8 DrugsDLC.XanaxCompound,
+		}
+	}
+
+	craftRecipe DryXanaxCompound
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 6 [DrugsDLC.XanaxCompound],
+
+		}
+		outputs
+		{
+			item 5 DrugsDLC.Xanax,
+		}
+	}
+}

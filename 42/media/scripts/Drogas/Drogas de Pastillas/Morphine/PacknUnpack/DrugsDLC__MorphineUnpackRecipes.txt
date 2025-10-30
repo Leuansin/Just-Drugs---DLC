@@ -1,0 +1,128 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5MorphinePack
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.MorphineBottle,
+ 		}
+ 	}
+
+	craftRecipe Unpack10MorphinePack
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.MorphineBottle,
+ 		}
+ 	}
+
+	craftRecipe Unpack20MorphinePack
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.MorphineBottle,
+ 		}
+ 	}
+
+	craftRecipe Unpack100MorphinePack
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.MorphineBottle,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Morphine_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5MorphinePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Morphine_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10MorphinePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Morphine_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20MorphinePack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Morphine_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000MorphinePack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100MorphinePack,
+ 		}
+ 	}
+
+}

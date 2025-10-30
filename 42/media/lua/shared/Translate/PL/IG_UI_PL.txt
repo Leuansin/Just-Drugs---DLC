@@ -1,0 +1,42 @@
+IGUI_PL = {
+
+    IGUI_CraftCategory_Drugs = "Narkotyki",
+    IGUI_ItemCat_Drugs = "Narkotyki",
+    IGUI_ItemCat_Item = "Przedmiot",
+    
+    IGUI_Intoxicacion_Levellow = "Wykryto lekkie objawy przedawkowania; szukaj Loperamidu.",
+    IGUI_Intoxicacion_Levelmid = "Wykryto umiarkowane objawy przedawkowania; znajd? Bismut Subsalicylat.",
+    IGUI_Intoxicacion_Levelhigh = "Wykryto powa?ne objawy przedawkowania; natychmiast potrzebujesz Narcan.",
+    
+    IGUI_2days_Abstinence = "Cholera, czuj?, ?e potrzebuj? narkotyków...",
+    IGUI_72_Abstinence = "72 godziny, to powinien by? szczyt abstynencji...",
+    IGUI_73_Abstinence = "POTRZEBUJ? ICH!",
+    IGUI_96_Abstinence = "Zabi?bym za jakie? grzyby.",
+    IGUI_115_Abstinence= "115 godzin bez narkotyków... Jestem naprawd? dumny.",
+    IGUI_168_Abstinence = "Tydzie? bez nich, musz? przesta? o tym my?le?.",
+    IGUI_300_Abstinence = "Lubi? by? troch? trze?wy...",
+    IGUI_400_Abstinence = "Bardzo lubi? by? trze?wy",
+    IGUI_Beat_DrugAddiction = "21 dni z rz?du? Wow, chyba ju? ich nie potrzebuj?.",
+    IGUI_Start_ofAddiction = "My?l?, ?e moje cia?o domaga si? narkotyków... Czy sta?em si? uzale?niony?",
+    IGUI_Need_Drugs = "Potrzebuj? narkotyków.",
+
+    IGUI_DrogadictoTrait = "Uzale?niony",
+    IGUI_DrogadictoDescription = "Jeste? uzale?niony. Twoje cia?o b?dzie domaga? si? narkotyków i b?dziesz si? nudzi?.\nDo?wiadczysz objawów abstynencji, je?li nie za?yjesz narkotyków przez 12 godzin.\nMo?esz przezwyci??y? uzale?nienie, je?li nie za?yjesz narkotyków przez 21 dni.\n(Ta cecha zostanie dodana automatycznie, je?li w grze za?yjesz du?o narkotyków)",
+    IGUI_WalterWhiteTrait = "Król Narkotyków",
+    IGUI_WalterWhiteDescription = "Zawsze by?e? m?drzejszy od innych. To ty produkowa?e? i sprzedawa?e? narkotyki!\nZaczynasz z przepisami na produkcj? narkotyków (tylko twarde narkotyki, nie leki farmaceutyczne)",
+    IGUI_FarmaceuticoTrait = "Farmaceuta",
+    IGUI_FarmaceuticoDescription = "Poszed?e? na studia medyczne\nZosta?e? farmaceut? i znasz wszystkie przepisy na narkotyki farmaceutyczne.",
+
+    IGUI_GoodTrip = "Ale mia?em ?wietny trip, by? uzdrawiaj?cy i wszystko.",
+    IGUI_BadTrip = "Cholera, to nie by? jeden z najlepszych tripów, jakie mia?em.",
+    IGUI_HorribleTrip = "TO BY?O STRASZNE! MUSZ? SI? UKOI?",
+
+    IGUI_GoodTripHardcore = "Cholera, to by?o pi?kne do?wiadczenie, naprawd? tego potrzebowa?em.",
+    IGUI_BadTripHardcore = "Cholera, zacz??em my?le? o z?ych rzeczach i mia?em z?y trip.",
+    IGUI_HorribleTripHardcore = "CZY JA UMIERAM?! CZY B?D? TAK SI? CZU? PRZEZ ZAWSZE?! NIE MA UIECIA!",
+
+    IGUI_NeedMoreMushrooms = "Czuj? si? troch? dziwnie, mo?e je?li zjem kilka wi?cej, b?d? mia? trip.",
+    IGUI_NeedMoreMushroomsHardcore = "To ju? zaczyna dzia?a?, je?li zjem kilka wi?cej, b?d? mia? trip.",
+    
+    IGUI_ConsumeDrug_Message = "Za?y?em %1. My?l?, ?e wzi??em ju? %2 do tej pory.",
+}

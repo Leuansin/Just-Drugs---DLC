@@ -1,0 +1,46 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item Potocaca
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Poop Feces,
+        DisplayCategory     = Drugs,
+        Icon                = Potocaca,
+        WorldStaticModel 	= Potocaca_Ground,
+		Tooltip 		    = Tooltip_Potocaca,
+}
+
+item BowlofJenkem
+    {
+        DisplayName                 = Pot with Jenkem,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Pot,
+        Packaged                    = FALSE,
+		FatigueChange 				= 90,
+		StressChange				= -80,
+		PainReduction 				= 80,
+		UnhappyChange				= 150,  
+		HungerChange 				= 150,
+		ThirstChange				= 150,
+		EnduranceChange 			= -300,
+		BoredomChange 				= -250,
+		ReduceInfectionPower     	= 20, 
+		Poison						= true,
+		PoisonPower					= 12,
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Inhale,
+		CustomEatSound              = Snorting,
+        WorldStaticModel 			= CookingPotGround,
+		Tooltip 					= Tooltip_Jenkem,
+    }
+
+}

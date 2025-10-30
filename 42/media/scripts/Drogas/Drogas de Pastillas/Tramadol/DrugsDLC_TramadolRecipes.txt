@@ -1,0 +1,63 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsTramadol
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.TramadolBox],
+		}
+		outputs
+		{
+			item 6 DrugsDLC.Tramadol,
+		}
+	}
+
+	craftRecipe MakeTramadolCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.MorphineCompound] mode:keep,
+			item 1 [DrugsDLC.OxycodoneCompound],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 6 DrugsDLC.TramadolCompound,
+		}
+	}
+
+	craftRecipe MakeTramadol
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 12 [DrugsDLC.TramadolCompound],
+			item 1 [DrugsDLC.XanaxCompound],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.TramadolBox,
+		}
+	}
+
+}

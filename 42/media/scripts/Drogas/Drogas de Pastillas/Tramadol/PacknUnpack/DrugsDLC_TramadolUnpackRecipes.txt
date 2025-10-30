@@ -1,0 +1,141 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Tramadol
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5TramadolPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Tramadol,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Tramadol
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10TramadolPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Tramadol,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Tramadol
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20TramadolPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Tramadol,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Tramadol
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100TramadolPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Tramadol,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Tramadol_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10TramadolPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5TramadolPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Tramadol_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20TramadolPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10TramadolPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Tramadol_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100TramadolPack],
+	
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20TramadolPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Tramadol_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000TramadolPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100TramadolPack,
+ 		}
+ 	}
+
+}

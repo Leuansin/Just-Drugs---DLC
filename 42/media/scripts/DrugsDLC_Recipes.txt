@@ -1,0 +1,68 @@
+module DrugsDLC
+{
+	imports
+	{
+		Base
+		DrugsDLC
+	}
+
+	craftRecipe ExtractPhenylethylamine1
+	{
+		Tags = AnySurfaceCraft, 
+		timedAction = Making, 
+		time = 17, 
+		category = Drugs, 
+		SkillRequired = Cooking:2, 
+
+		inputs
+		{
+			item 1 [Base.Chocolate;Base.Painauchocolat;Base.CakeChocolate;Base.DoughnutChocolate],
+			item 1 [Base.MortarPestle;Base.Mov_ConcreteMixer] mode:keep,
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 3 DrugsDLC.PhenyCompound,
+		}
+	}
+
+	craftRecipe ExtractPhenylethylamine2
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making, 
+		time = 17, 
+		category = Drugs,
+		SkillRequired = Cooking:2, 
+
+		inputs
+		{
+			item 3 [Base.CookieChocolateChip;Base.ChocolateChips;Base.Chocolate;Base.ChocolateChips;Base.ChocolateCoveredCoffeeBeans],
+			item 1 [Base.MortarPestle;Base.Mov_ConcreteMixer] mode:keep,
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.PhenyCompound,
+		}
+	}
+
+	craftRecipe AddHeroinToNeedle
+	{
+		Tags = InHandCraft, 
+		timedAction = Making, 
+		time = 20, 
+		category = Drugs, 
+
+		inputs
+		{
+			item 1 [DrugsDLC.Heroin],
+			item 1 [Base.Spoon] mode:keep,
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+			item 1 [Base.Needle],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.HeroinNeedle, 
+		}
+	}
+}

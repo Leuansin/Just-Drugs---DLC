@@ -1,0 +1,24 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsIbuprofen
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.IbuprofenBox],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Ibuprofen,
+		}
+	}
+}

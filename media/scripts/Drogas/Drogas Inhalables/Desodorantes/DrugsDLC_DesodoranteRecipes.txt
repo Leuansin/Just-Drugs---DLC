@@ -1,0 +1,31 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Spray Towel With Deodorant
+{
+	DrugsDLC.OldSpiceDesodorante/DrugsDLC.RexonaDesodorante/DrugsDLC.AxeDesodorante=1,
+	BathTowel/DishCloth/BathTowelWet/DishClothWet=1,
+	Result:DrugsDLC.DeodorantTowel=1,
+	Time: 12.0,
+	Category: Drugs,
+	Sound: SprayDesodorante,
+	AnimNode:Pour,
+}
+
+recipe Spray Yourself
+{
+	keep DrugsDLC.OldSpiceDesodorante/DrugsDLC.RexonaDesodorante/DrugsDLC.AxeDesodorante=1,
+	Time: 7.0,
+	Result:DrugsDLC.BolsaDeDroga=1,
+	RemoveResultItem:true,
+	Category: Drugs,
+	Sound: SprayDesodorante,
+	AnimNode:Pour,
+}
+
+}

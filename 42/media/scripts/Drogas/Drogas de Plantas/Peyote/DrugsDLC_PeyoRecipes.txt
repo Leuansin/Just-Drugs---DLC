@@ -1,0 +1,43 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe AddPeyoteToTea
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Peyote],
+			item 1 [Base.Teacup],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.PeyoteInfusion,
+		}
+	}
+
+	craftRecipe MakePeyoteInfusion
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.PeyoteInfusion],
+			item 1 [Base.Teacup],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.PeyoteTea,
+		}
+	}
+
+}

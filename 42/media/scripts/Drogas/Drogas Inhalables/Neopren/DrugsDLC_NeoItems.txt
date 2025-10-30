@@ -1,0 +1,44 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item Neoprene
+{
+	    Weight              = 0.1,
+        Type                = Normal,
+        DisplayName         = Neoprene,
+        DisplayCategory     = Drugs,
+        Icon                = Neoprene,
+        WorldStaticModel 	= Margerine_Ground,
+		Tooltip 		    = Tooltip_Neopren,
+}
+
+item NeopreneBag
+    {
+        DisplayName                 = Bag with Neoprene,
+        DisplayCategory             = Drugs,
+		Type						= Food,
+        Medical						= true,
+        Weight                      = 0.1,
+        Icon                        = Paperbag,
+        Packaged                    = FALSE,
+		FatigueChange 				= 40,
+		StressChange				= -80,
+		PainReduction 				= 80,
+		UnhappyChange				= -250,  
+		HungerChange 				= -250,
+		ThirstChange				= 8,
+		EnduranceChange 			= -100,
+		BoredomChange 				= -250,
+		ReduceInfectionPower     	= 20, 
+		UseDelta 					= 0.1,
+        CustomContextMenu           = Inhale,
+		CustomEatSound              = Snorting,
+        WorldStaticModel 			= PlasticBag_Ground,
+		Tooltip 					= Tooltip_NeopreneBag,
+    }
+
+}

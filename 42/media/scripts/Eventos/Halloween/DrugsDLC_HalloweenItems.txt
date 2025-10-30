@@ -1,0 +1,22 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item HalloweenPumpkinDrug
+{
+	Weight              = 1.0,
+        Type                = Normal,
+        DisplayName         = Halloween Pumpkin,
+        DisplayCategory     = Drugs,
+        Icon                = Jackolantern,
+        StaticModel 	    = Jackolantern_Ground,
+        WorldStaticModel    = Jackolantern_Ground,
+	Tooltip             = Tooltip_HalloweenPumpkinDrug,
+}
+
+
+
+}

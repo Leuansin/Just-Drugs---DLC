@@ -1,0 +1,77 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item HeroinLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: How to Cook Heroin,
+        DisplayCategory   = Drugs,
+		Icon		      =	Book,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorRed 		  = 228,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count 			  = 1,
+		TeachedRecipes 	  = Extract Morphine Compound;Produce Refined Heroin;Dry Refined Heroin,
+	}
+
+item Heroin
+    {
+        DisplayName					= Bag of Heroin,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= BagCocaine,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -75,
+		UnhappyChange				= -30,  
+		HungerChange 				= -60,
+		ThirstChange				= 10,
+		EnduranceChange 			= 40,
+		BoredomChange 				= -90,
+		PainReduction 				= 50,
+		StressChange				= -69,  
+		Poison 						= True,
+		PoisonPower					= 7,    
+		ReduceInfectionPower     	= 7,  
+		ReplaceOnUse	        	= DrugsDLC.BolsaDeDroga,
+		CustomContextMenu 		    = Inhale,
+		CustomEatSound 				= Snorting,
+        WorldStaticModel 			= MethBaggy,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+
+
+item HeroinNeedle
+    {
+        DisplayName					= Needle with Heroin,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.1,
+		Icon						= HeroinNeedle,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -65,
+		UnhappyChange				= -60,  
+		HungerChange 				= -70,
+		ThirstChange				= 5,
+		EnduranceChange 			= 20,
+		BoredomChange 				= -90,
+		PainReduction 				= 60,
+		StressChange				= -69,  
+		OnEat = 					OnEat_HasTakenDrugs,
+		Poison 						= True,
+		PoisonPower					= 6,    
+		ReduceInfectionPower     	= 2,  
+		ReplaceOnUse	        	= DrugsDLC.Needle,
+		CustomContextMenu 		    = Inject,
+		CustomEatSound 				= injectdrugs,
+        WorldStaticModel 			= DrugNeedle,
+		Tooltip 					= Tooltip_HeroinNeedle,
+    }
+}

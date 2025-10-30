@@ -1,0 +1,32 @@
+Sandbox_RU = {
+Sandbox_JustDrugsDLC = "Just Drugs - DLC | By Leuan",
+    
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "% появления галлюциногенных наркотиков",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "% появления ингаляционных наркотиков",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "% появления порошковых наркотиков",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "% появления растительных наркотиков",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "% появления фармацевтических наркотиков",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "% появления детоксикационных наркотиков",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "% появления наркотиков у зомби",
+   
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "% появления бутылок с соединениями",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = '% появления книг "Химия 101"',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "% появления пустых пакетов из-под наркотиков",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Увеличение скуки каждый час",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Дней для преодоления черты наркозависимости",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Грибы, кислота, МДМА, экстази и т.д...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Дезодоранты, Дженкем и Неопрен",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Кокаин, Героин, Фентанил, Метамфетамин и т.д...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Аяуаска, Кат, Пейот, Дыхание Дьявола и т.д...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ибупрофен, Викодин, Трамадол, Ксанакс и т.д...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Наркан, Лоперамид, Висмут. Наркотики, которые помогают бороться с [передозировкой]",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Изменяет появление предметов на трупе зомби.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Флаконы с аммиаком, фенолом, этанолом, калием и т.д...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Книги, которые учат рецептам изготовления конкретного наркотика.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Пустые пакеты из-под наркотиков. (полезны для изготовления)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Только черта Наркозависимости увеличивает скуку каждый час, так что это помогает ее настроить.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Помни, что у тебя не должно быть никаких наркотиков в инвентаре, чтобы это засчитывалось.",
+}

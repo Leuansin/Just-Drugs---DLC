@@ -1,0 +1,49 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Add Morphine into Needle
+{
+	DrugsDLC.MorphineBottle=1,
+	Result:DrugsDLC.MorphineNeedle=1,
+	Time: 2.0,
+	Category: Drugs,
+	Sound: shakepills,
+	AnimNode:Pour,
+}
+
+recipe Make Morphine Compound
+	{
+		DrugsDLC.OxycodoneCompound=1,
+		DrugsDLC.AmmoniaBottle=1,
+		Pills=1,
+		keep Pot=1,
+
+		Result:DrugsDLC.MorphineCompound=6,
+		Time: 17.0,
+		Category: Drugs,
+		SkillRequired:Cooking=2,
+		Sound:BoilingDrugWater,
+		NeedToBeLearn:true,
+		AnimNode:Pour,
+	}
+
+recipe Make Morphine
+	{
+		DrugsDLC.MorphineCompound=6,
+		DrugsDLC.XanaxCompound=1,
+		PopBottleEmpty/WaterBottleEmpty/WhiskeyEmpty/WineEmpty/WineEmpty2/BeerEmpty=1,
+
+		Result:DrugsDLC.MorphineBottle=1,
+		Time: 20.0,
+		Category: Drugs,
+		Sound:DryDrugx,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+
+}

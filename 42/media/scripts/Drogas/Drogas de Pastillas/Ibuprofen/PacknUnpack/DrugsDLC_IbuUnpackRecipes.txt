@@ -1,0 +1,136 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Ibuprofen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Ibuprofen,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Ibuprofen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10IbuprofenPack]
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Ibuprofen,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Ibuprofen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Ibuprofen,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Ibuprofen
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Ibuprofen,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Ibuprofen_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5IbuprofenPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Ibuprofen_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10IbuprofenPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Ibuprofen_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20IbuprofenPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Ibuprofen_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000IbuprofenPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100IbuprofenPack,
+ 		}
+ 	}
+
+}

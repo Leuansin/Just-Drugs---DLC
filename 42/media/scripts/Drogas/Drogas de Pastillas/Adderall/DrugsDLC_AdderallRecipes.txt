@@ -1,0 +1,61 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe TakePillsAdderall
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 2,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.AdderallBottle],
+		}
+		outputs
+		{
+			item 12 DrugsDLC.Adderall,
+		}
+	}
+
+	craftRecipe MakeAdderallCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [Base.PillsAntiDep],
+			item 1 [Base.PillsVitamins],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 12 DrugsDLC.BenzoCompound,
+		}
+	}
+
+	craftRecipe ProduceAdderall
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 12 [DrugsDLC.BenzoCompound],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.AdderallBottle,
+		}
+	}
+}

@@ -1,0 +1,31 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+recipe Add Scopolamine to Tea
+{
+	DrugsDLC.Escopolamina=1,
+	Teacup=1,
+	Result:DrugsDLC.EscopolaminaInfusion=1,
+	Time: 10.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+recipe Make Scopoalmine Infusion
+{
+	DrugsDLC.EscopolaminaInfusion=1,
+	Teacup=1,
+	Result:DrugsDLC.EscopolaminaTea=1,
+	Time: 40.0,
+	Category: Drugs,
+	Sound: BoilingDrugWater,
+	AnimNode:Pour,
+}
+
+}

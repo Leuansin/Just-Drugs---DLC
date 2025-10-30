@@ -1,0 +1,85 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe ExtractPsilocybin
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 30,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 15 DrugsDLC.PsilocybinCompound,
+		}
+	}
+
+	craftRecipe MixPsilocybinCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 14,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [Base.MushroomGeneric1;Base.MushroomGeneric2;Base.MushroomGeneric3;Base.MushroomGeneric4;Base.MushroomGeneric5;Base.MushroomGeneric6;Base.MushroomGeneric7],
+			item 5 [DrugsDLC.PsilocybinCompound],
+			item 1 [DrugsDLC.PhenyCompound],
+			item 1 [Base.Disinfectant],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 6 DrugsDLC.RawShrooms,
+		}
+	}
+
+	craftRecipe GrowAndPackShrooms
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 6 [DrugsDLC.RawShrooms],
+			item 1 [DrugsDLC.BolsaDeDroga],
+			item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LongWomenGloves;Base.Gloves_Surgical;Base.Gloves_WhiteTINT] mode:keep,
+			item 1 [Base.Disinfectant],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.BagShrooms,
+		}
+	}
+
+	craftRecipe OpenBagOfShrooms
+	{
+	 	Tags = InHandCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+	 	time = 30,
+	 	category = Drugs,
+	 	inputs
+	 	{
+	 		item 1 [DrugsDLC.BagShrooms],
+	 	}
+	 	outputs
+	 	{
+	 		item 6 DrugsDLC.Shrooms,
+	 	}
+	}
+}

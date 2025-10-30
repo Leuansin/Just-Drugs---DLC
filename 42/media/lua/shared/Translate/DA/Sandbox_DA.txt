@@ -1,0 +1,31 @@
+Sandbox_DA = {
+    Sandbox_JustDrugsDLC = "Just Drugs - DLC | Af Leuan",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate = "Spawn-rate for hallucinogene stoffer",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate = "Spawn-rate for inhalerbare stoffer",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate = "Spawn-rate for pulverformede stoffer",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate = "Spawn-rate for urtemedicinske stoffer",
+    Sandbox_JustDrugsDLC_PillsSpawnRate = "Spawn-rate for farmaceutiske stoffer",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate = "Spawn-rate for afgiftningsstoffer",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate = "Spawn-rate for stoffer i zombier",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate = "Spawn-rate for flasker med kemiske forbindelser",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate = 'Spawn-rate for "Chemistry 101" bøger',
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate = "Spawn-rate for tomme drogposer",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement = "Øgelse af kedsomhed hver time",
+    Sandbox_JustDrugsDLC_SuperarAddicion = "Dage for at overkomme stofafhængigheds-træk",
+
+    Sandbox_JustDrugsDLC_AlucinogenasSpawnRate_tooltip = "Svampe, Syre, MDMA, Ecstasy osv...",
+    Sandbox_JustDrugsDLC_InhalablesSpawnRate_tooltip = "Deodorant, Jenkem og Neopren",
+    Sandbox_JustDrugsDLC_PolvoSpawnRate_tooltip = "Kokain, Heroin, Fentanyl, Meth, osv...",
+    Sandbox_JustDrugsDLC_HerbalSpawnRate_tooltip = "Ayahuasca, Khat, Peyote, Djævelens ånde osv...",
+    Sandbox_JustDrugsDLC_PillsSpawnRate_tooltip = "Ibuprofen, Vicodin, Tramadol, Xanax osv...",
+    Sandbox_JustDrugsDLC_DesintoxicantesSpawnRate_tooltip = "Narcan, Loperamid, Bismuth. Stoffer der hjælper mod overdoser",
+    Sandbox_JustDrugsDLC_ZombieDrugLootSpawnRate_tooltip = "Ændrer spawn af genstande i en zombies lig.",
+    Sandbox_JustDrugsDLC_BottleCompoundSpawnRate_tooltip = "Flasker med ammoniak, phenol, ethanol, kalium osv...",
+    Sandbox_JustDrugsDLC_LibrosChem101SpawnRate_tooltip = "Bøger, der lærer opskrifter til fremstilling af et specifikt stof.",
+    Sandbox_JustDrugsDLC_BolsasDeDrogaSpawnRate_tooltip = "Tomme drogposer. (Nyttige til fremstilling)",
+
+    Sandbox_JustDrugsDLC_BoredomIncrement_tooltip = "Kun afhængigheds-trækket for stoffer øger kedsomheden hver time, så dette hjælper med at konfigurere det.",
+    Sandbox_JustDrugsDLC_SuperarAddicion_tooltip = "Husk, at du ikke må have nogen stoffer i dit inventar for at dette skal tælle.",
+}

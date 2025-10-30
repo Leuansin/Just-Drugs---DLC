@@ -1,0 +1,85 @@
+require 'Foraging/forageSystem'
+
+forageDefs.Ayahuasca = {
+		type = "DrugsDLC.Ayahuasca",
+		minCount = 1,
+		maxCount = 1,
+		skill = 2,
+		xp = 20,
+		categories = { "MedicinalPlants" },
+		zones = {
+			Forest          = 1,
+			FarmLand        = 1,
+			Farm            = 1,
+		},
+		bonusMonths = { 6, 7, 8 },
+		malusMonths = { 11, 12 },
+}
+
+forageDefs.Khat = {
+		type = "DrugsDLC.Khat",
+		minCount = 1,
+		maxCount = 1,
+		skill = 3,
+		xp = 20,
+		categories = { "MedicinalPlants" },
+		zones = {
+			Forest          = 2,
+			FarmLand        = 1,
+			Farm            = 1,
+		},
+		bonusMonths = { 6, 7, 8 },
+		malusMonths = { 11, 12 },
+}
+
+forageDefs.Peyote = {
+		type = "DrugsDLC.Peyote",
+		minCount = 1,
+		maxCount = 1,
+		skill = 2,
+		xp = 20,
+		categories = { "MedicinalPlants" },
+		zones = {
+			FarmLand        = 1,
+			Farm            = 1,
+		},
+		bonusMonths = { 6, 7, 8 },
+		malusMonths = { 11, 12 },
+}
+
+forageDefs.Burundanga = {
+		type = "DrugsDLC.Burundanga",
+		minCount = 1,
+		maxCount = 1,
+		skill = 3,
+		xp = 20,
+		categories = { "MedicinalPlants" },
+		zones = {
+			Forest          = 2,
+			FarmLand        = 1,
+			Farm            = 1,
+			TrailerPark     = 1,
+		},
+		bonusMonths = { 6, 7, 8 },
+		malusMonths = { 11, 12 },
+}
+
+forageDefs.Potocaca = {
+		type = "DrugsDLC.Potocaca",
+		minCount = 1,
+		maxCount = 2,
+		skill = 1,
+		xp = 20,
+		categories = { "MedicinalPlants" },
+		zones = {
+			Forest          = 2,
+			Vegitation      = 2,
+			FarmLand        = 2,
+			Farm            = 2,
+			TrailerPark     = 2,
+			TownZone        = 2,
+			Nav             = 2,
+		},
+		bonusMonths = { 6, 7, 8 },
+		malusMonths = { 11, 12 },
+}

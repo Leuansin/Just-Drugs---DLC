@@ -1,0 +1,43 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe AddScopolamineToTea
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 10,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Escopolamina],
+			item 1 [Base.Teacup],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.EscopolaminaInfusion,
+		}
+	}
+
+	craftRecipe MakeScopoalmineInfusion
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 40,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.EscopolaminaInfusion],
+			item 1 [Base.Teacup],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.EscopolaminaTea,
+		}
+	}
+
+}

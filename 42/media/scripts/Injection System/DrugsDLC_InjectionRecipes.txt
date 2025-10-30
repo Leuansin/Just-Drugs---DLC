@@ -1,0 +1,213 @@
+module DrugsDLC
+{
+    imports
+    {
+        Base
+    }
+
+	craftRecipe MeltDrugHeroin
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.HeroinSpoonDrug],
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.HeroinNeedle,
+		}
+	}
+
+
+	craftRecipe MeltDrugMeth
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.MethSpoonDrug],
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.MethNeedle,
+		}
+	}
+
+	craftRecipe MeltDrugCocaine
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.CocaineSpoonDrug],
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.CocaineNeedle,
+		}
+	}
+
+	craftRecipe MeltDrugCrack
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.CrackSpoonDrug],
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.CrackNeedle,
+		}
+	}
+
+	craftRecipe MeltDrugFentanyl
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.FentanylSpoonDrug],
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.FentanylNeedle,
+		}
+	}
+
+	craftRecipe MeltDrugAmph
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.AmphSpoonDrug],
+			item 1 [Base.Lighter;Base.Matches] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.AmphNeedle,
+		}
+	}
+
+	craftRecipe AddMethToSpoon
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Meth],
+			item 1 [Base.Spoon] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.MethSpoonDrug,
+		}
+	}
+
+	craftRecipe AddCocaineToSpoon
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Cocaine],
+			item 1 [Base.Spoon] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.CocaineSpoonDrug,
+		}
+	}
+
+	craftRecipe AddFentanylToSpoon
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Fentanyl],
+			item 1 [Base.Spoon] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.FentanylSpoonDrug,
+		}
+	}
+
+	craftRecipe AddCrackToSpoon
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Crack],
+			item 1 [Base.Spoon] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.CrackSpoonDrug,
+		}
+	}
+
+	craftRecipe AddAmphetaminesToSpoon
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Amphetamines],
+			item 1 [Base.Spoon] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.AmphSpoonDrug,
+		}
+	}
+
+	craftRecipe AddHeroinToSpoon
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 5,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Heroin],
+			item 1 [Base.Spoon] mode:keep,
+		}
+		outputs
+		{
+			item 1 DrugsDLC.HeroinSpoonDrug,
+		}
+	}
+
+}

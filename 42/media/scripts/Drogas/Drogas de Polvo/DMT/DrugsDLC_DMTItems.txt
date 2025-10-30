@@ -1,0 +1,73 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+
+item DMTLibro
+	{
+		Weight			  = 0.3,
+		Type		      =	Literature,
+		DisplayName	      =	Chemistry 101: How to Make DMT,
+        DisplayCategory   = Drugs,
+		Icon		      =	LibroDrogas,
+		WorldStaticModel  = BookGrey,
+		BoredomChange	  = -50,
+		ColorGreen 		  = 195,
+		StressChange	  = -15,
+		NumberOfPages 	  = 420,
+		Count			  = 1,
+		TeachedRecipes 	  = Make DMT Compound;Make DMT,
+	}
+
+item DMT
+    {
+        DisplayName                 = DMT,
+        DisplayCategory             = Drugs,
+        Type                        = Food,
+        Weight                      = 0.1,
+        Icon                        = Pastillitas,
+        Packaged                    = FALSE,
+		FatigueChange	        	= -25,
+		UnhappyChange				= -20,  
+		HungerChange 				= -40,
+		ThirstChange				= 4,
+		EnduranceChange 			= 20,
+		BoredomChange 				= -70,
+		StressChange				= -20,  
+		OnEat 						= OnEat_TrippingHardcore,
+		ReduceInfectionPower     	= 2,   
+		ReplaceOnUse	        	= DrugsDLC.BolsaDeDroga,
+        CustomContextMenu           = Inhale,
+		CustomEatSound              = Crackling,
+        WorldStaticModel 			= CokeBaggy,
+		Tooltip 					= Tooltip_DMT,
+    }
+
+item DMTPipe
+	{
+		DisplayName					= Pipe with DMT,
+		DisplayCategory             = Drugs,
+		Type						= Food,
+		Weight						= 0.3,
+		Icon						= DrugPipe,
+		Packaged 					= FALSE,
+		FatigueChange	        	= -75,
+		UnhappyChange				= -30,  
+		HungerChange 				= -50,
+		ThirstChange				= 14,
+		EnduranceChange 			= 10,
+		BoredomChange 				= -50,
+		StressChange				= -59,  
+		ReduceInfectionPower     	= 2,   
+		RequireInHandOrInventory	= Lighter/Matches,
+		OnEat 						= OnEat_TrippingHardcore,
+		ReplaceOnUse	        	= DrugsDLC.DrugPipe,
+		CustomContextMenu			= Smoke Meth,
+		CustomEatSound 				= LightUpMeth,
+		WorldStaticModel 			= DrugPipe,
+		Tooltip 					= Tooltip_DMTPipe,
+	}
+
+}

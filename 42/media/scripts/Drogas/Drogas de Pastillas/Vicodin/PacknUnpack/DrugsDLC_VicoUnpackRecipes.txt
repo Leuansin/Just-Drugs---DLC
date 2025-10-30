@@ -1,0 +1,144 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Vicodin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5VicodinPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Vicodin,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Vicodin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10VicodinPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Vicodin,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Vicodin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20VicodinPack],
+ 	
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Vicodin,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Vicodin
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100VicodinPack],
+ 		
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Vicodin,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Vicodin_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10VicodinPack],
+	
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5VicodinPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Vicodin_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20VicodinPack],
+	
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10VicodinPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Vicodin_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100VicodinPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20VicodinPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Vicodin_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000VicodinPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100VicodinPack,
+ 		}
+ 	}
+
+}

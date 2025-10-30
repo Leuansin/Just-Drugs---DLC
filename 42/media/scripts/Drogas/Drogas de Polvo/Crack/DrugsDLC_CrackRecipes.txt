@@ -1,0 +1,65 @@
+module DrugsDLC
+{
+
+imports
+	{
+		Base
+	}
+
+	craftRecipe ExtractCrackCompound
+	{
+		Tags = AnySurfaceCraft,
+		timedAction = Making,
+		time = 17,
+		category = Drugs,
+		SkillRequired = Cooking:2,
+		needTobeLearn = true,
+		inputs
+		{
+			item 1 [DrugsDLC.EphedrineBottle],
+			item 1 [DrugsDLC.AmmoniaBottle],
+			item 1 [Base.Pot] mode:keep,
+		}
+		outputs
+		{
+			item 5 DrugsDLC.CrackCompound,
+		}
+	}
+
+	craftRecipe DryAndPackTheCrack
+	{
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		timedAction = Making,
+		time = 20,
+		category = Drugs,
+		needTobeLearn = true,
+		inputs
+		{
+			item 5 [DrugsDLC.CrackCompound],
+			item 5 [DrugsDLC.BolsaDeDroga],
+		}
+		outputs
+		{
+			item 5 DrugsDLC.Crack,
+		}
+	}
+
+
+	craftRecipe AddCrackToPipe
+	{
+		Tags = InHandCraft,
+		timedAction = Making,
+		time = 60,
+		category = Drugs,
+		inputs
+		{
+			item 1 [DrugsDLC.Crack],
+			item 1 [DrugsDLC.DrugPipe;Base.Aluminum],
+		}
+		outputs
+		{
+			item 1 DrugsDLC.CrackPipe,
+		}
+	}
+
+}

@@ -1,0 +1,140 @@
+module DrugsDLC
+{
+imports
+	{
+		Base
+	}
+ 	
+	craftRecipe Unpack5Xanax
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 3,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.5XanaxPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.Xanax,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Xanax
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 5,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10XanaxPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.Xanax,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Xanax
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20XanaxPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 20 DrugsDLC.Xanax,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Xanax
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100XanaxPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 100 DrugsDLC.Xanax,
+ 		}
+ 	}
+
+	craftRecipe Unpack10Xanax_To_5Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 10,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.10XanaxPack],
+
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.5XanaxPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack20Xanax_To_10Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 20,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.20XanaxPack],
+ 		}
+ 		outputs
+ 		{
+ 			item 2 DrugsDLC.10XanaxPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack100Xanax_To_20Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 50,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.100XanaxPack],
+		
+ 		}
+ 		outputs
+ 		{
+ 			item 5 DrugsDLC.20XanaxPack,
+ 		}
+ 	}
+
+	craftRecipe Unpack1000Xanax_To_100Packs
+ 	{
+ 		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+ 		timedAction = Making,
+ 		time = 100,
+ 		category = Drugs,
+ 		inputs
+ 		{
+ 			item 1 [DrugsDLC.1000XanaxPack],
+	
+ 		}
+ 		outputs
+ 		{
+ 			item 10 DrugsDLC.100XanaxPack,
+ 		}
+ 	}
+
+}
